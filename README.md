@@ -99,7 +99,7 @@ Copyright © 2026 LiteCopy. All rights reserved.
 
 If you find LiteCopy helpful, consider supporting the project!
 
-**[👉 Click here to support](https://ko-fi.com/annmax?ref=cleancopy)**
+**[👉 Click here to support](https://annmax1983.github.io/LiteCopy/)**
 
 ---
 

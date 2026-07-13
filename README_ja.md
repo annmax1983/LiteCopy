@@ -77,7 +77,7 @@
 
 ## 支援
 
-**[👉 開発者を支援](https://ko-fi.com/annmax?ref=cleancopy)**
+**[👉 開発者を支援](https://annmax1983.github.io/LiteCopy/)**
 
 ---
 

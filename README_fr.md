@@ -77,7 +77,7 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 
 ## Soutenir
 
-**[👉 Soutenir le développeur](https://ko-fi.com/annmax?ref=cleancopy)**
+**[👉 Soutenir le développeur](https://annmax1983.github.io/LiteCopy/)**
 
 ---
 

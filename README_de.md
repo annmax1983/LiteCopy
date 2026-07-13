@@ -77,7 +77,7 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 
 ## Unterstützen
 
-**[👉 Entwickler unterstützen](https://ko-fi.com/annmax?ref=cleancopy)**
+**[👉 Entwickler unterstützen](https://annmax1983.github.io/LiteCopy/)**
 
 ---
 

@@ -79,7 +79,7 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 
 ## Apoyar
 
-**[👉 Apoyar al desarrollador](https://ko-fi.com/annmax?ref=cleancopy)**
+**[👉 Apoyar al desarrollador](https://annmax1983.github.io/LiteCopy/)**
 
 ---
 
