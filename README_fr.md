@@ -1,4 +1,4 @@
-# CleanCopy
+# LiteCopy
 
 [English](README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | Français
 
@@ -8,9 +8,9 @@ Une extension de navigateur légère qui supprime les restrictions de copie, dé
 
 ---
 
-## Pourquoi CleanCopy ?
+## Pourquoi LiteCopy ?
 
-Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sélectionner, le clic droit était bloqué ou Ctrl+C ne fonctionnait pas ? CleanCopy résout tout en un clic.
+Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sélectionner, le clic droit était bloqué ou Ctrl+C ne fonctionnait pas ? LiteCopy résout tout en un clic.
 
 | Avantage | Détail |
 |----------|--------|
@@ -37,7 +37,7 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 ## Aperçu
 
 <p align="center">
-  <img src="icons/icon128.png" alt="CleanCopy Icon" width="80">
+  <img src="icons/icon128.png" alt="LiteCopy Icon" width="80">
 </p>
 
 ---
@@ -62,7 +62,7 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 ## Utilisation
 
 1. Visitez un site web qui bloque la copie ou la sélection
-2. Cliquez sur l'icône **CleanCopy**
+2. Cliquez sur l'icône **LiteCopy**
 3. Toutes les restrictions sont supprimées instantanément
 4. Cliquez à nouveau pour désactiver (la page se recharge)
 

@@ -1,4 +1,4 @@
-# CleanCopy
+# LiteCopy
 
 English | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
@@ -8,9 +8,9 @@ A lightweight browser extension that removes copy restrictions, unblocks right-c
 
 ---
 
-## Why CleanCopy?
+## Why LiteCopy?
 
-Ever tried to copy text from a website but couldn't select it, right-click was blocked, or Ctrl+C did nothing? CleanCopy fixes all of that with one click.
+Ever tried to copy text from a website but couldn't select it, right-click was blocked, or Ctrl+C did nothing? LiteCopy fixes all of that with one click.
 
 | Advantage | Detail |
 |-----------|--------|
@@ -40,7 +40,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 ## Preview
 
 <p align="center">
-  <img src="icons/icon128.png" alt="CleanCopy Icon" width="80">
+  <img src="icons/icon128.png" alt="LiteCopy Icon" width="80">
 </p>
 
 ---
@@ -62,14 +62,14 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
    - **Edge**: `edge://extensions/`
 2. Enable **Developer mode** (top-right toggle)
 3. Click **Load unpacked** and select the `lite-copy` folder
-4. The CleanCopy icon appears in your toolbar
+4. The LiteCopy icon appears in your toolbar
 
 ---
 
 ## Usage
 
 1. Visit any website that blocks copying or text selection
-2. Click the **CleanCopy** icon in your toolbar
+2. Click the **LiteCopy** icon in your toolbar
 3. All restrictions are removed instantly
 4. Click the icon again to disable (page reloads to restore original behavior)
 
@@ -91,13 +91,13 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 ## License
 
-Copyright © 2026 CleanCopy. All rights reserved.
+Copyright © 2026 LiteCopy. All rights reserved.
 
 ---
 
 ## ❤️ Support
 
-If you find CleanCopy helpful, consider supporting the project!
+If you find LiteCopy helpful, consider supporting the project!
 
 **[👉 Click here to support](https://ko-fi.com/annmax?ref=cleancopy)**
 

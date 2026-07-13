@@ -1,4 +1,4 @@
-# CleanCopy
+# LiteCopy
 
 [English](README.md) | 中文 | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
@@ -8,9 +8,9 @@
 
 ---
 
-## 为什么选择 CleanCopy？
+## 为什么选择 LiteCopy？
 
-遇到过网页不让复制、不让选中文字、右键被拦截的情况吗？CleanCopy 一键搞定。
+遇到过网页不让复制、不让选中文字、右键被拦截的情况吗？LiteCopy 一键搞定。
 
 | 优势 | 说明 |
 |------|------|
@@ -40,7 +40,7 @@
 ## 预览
 
 <p align="center">
-  <img src="icons/icon128.png" alt="CleanCopy Icon" width="80">
+  <img src="icons/icon128.png" alt="LiteCopy Icon" width="80">
 </p>
 
 ---
@@ -62,14 +62,14 @@
    - **Edge**：`edge://extensions/`
 2. 开启右上角的**开发者模式**
 3. 点击**加载已解压的扩展程序**，选择 `lite-copy` 文件夹
-4. 工具栏中出现 CleanCopy 图标
+4. 工具栏中出现 LiteCopy 图标
 
 ---
 
 ## 使用方法
 
 1. 访问任何限制复制或选中的网页
-2. 点击工具栏中的 **CleanCopy** 图标
+2. 点击工具栏中的 **LiteCopy** 图标
 3. 所有限制瞬间解除
 4. 再次点击图标关闭（页面自动刷新恢复原状）
 
@@ -91,13 +91,13 @@
 
 ## 许可证
 
-Copyright © 2026 CleanCopy. All rights reserved.
+Copyright © 2026 LiteCopy. All rights reserved.
 
 ---
 
 ## ❤️ 支持作者
 
-如果你觉得 CleanCopy 有帮助，欢迎支持！
+如果你觉得 LiteCopy 有帮助，欢迎支持！
 
 **[👉 点击支持](https://ko-fi.com/annmax?ref=cleancopy)**
 

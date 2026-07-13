@@ -1,4 +1,4 @@
-# CleanCopy
+# LiteCopy
 
 [English](README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | 日本語 | [Français](README_fr.md)
 
@@ -8,9 +8,9 @@
 
 ---
 
-## なぜ CleanCopy？
+## なぜ LiteCopy？
 
-ウェブサイトからテキストをコピーしようとして、選択できなかったり、右クリックがブロックされたり、Ctrl+Cが効かなかったことはありませんか？CleanCopy はワンクリックで全て解決します。
+ウェブサイトからテキストをコピーしようとして、選択できなかったり、右クリックがブロックされたり、Ctrl+Cが効かなかったことはありませんか？LiteCopy はワンクリックで全て解決します。
 
 | 利点 | 詳細 |
 |------|------|
@@ -37,7 +37,7 @@
 ## プレビュー
 
 <p align="center">
-  <img src="icons/icon128.png" alt="CleanCopy Icon" width="80">
+  <img src="icons/icon128.png" alt="LiteCopy Icon" width="80">
 </p>
 
 ---
@@ -62,7 +62,7 @@
 ## 使い方
 
 1. コピー制限のあるウェブサイトにアクセス
-2. **CleanCopy** アイコンをクリック
+2. **LiteCopy** アイコンをクリック
 3. 全ての制限が瞬時に解除
 4. もう一度クリックで無効化（ページが再読み込み）
 

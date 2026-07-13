@@ -1,4 +1,4 @@
-# CleanCopy
+# LiteCopy
 
 [English](README.md) | [中文](README_zh.md) | [Español](README_es.md) | Deutsch | [日本語](README_ja.md) | [Français](README_fr.md)
 
@@ -8,9 +8,9 @@ Eine leichtgewichtige Browser-Erweiterung, die Kopierbeschränkungen entfernt, R
 
 ---
 
-## Warum CleanCopy?
+## Warum LiteCopy?
 
-Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnten ihn nicht auswählen, der Rechtsklick war blockiert oder Strg+C funktionierte nicht? CleanCopy behebt alles mit einem Klick.
+Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnten ihn nicht auswählen, der Rechtsklick war blockiert oder Strg+C funktionierte nicht? LiteCopy behebt alles mit einem Klick.
 
 | Vorteil | Detail |
 |---------|--------|
@@ -37,7 +37,7 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 ## Vorschau
 
 <p align="center">
-  <img src="icons/icon128.png" alt="CleanCopy Icon" width="80">
+  <img src="icons/icon128.png" alt="LiteCopy Icon" width="80">
 </p>
 
 ---
@@ -62,7 +62,7 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 ## Verwendung
 
 1. Besuchen Sie eine Website mit Kopierbeschränkungen
-2. Klicken Sie auf das **CleanCopy**-Symbol
+2. Klicken Sie auf das **LiteCopy**-Symbol
 3. Alle Beschränkungen werden sofort entfernt
 4. Klicken Sie erneut zum Deaktivieren (Seite wird neu geladen)
 
