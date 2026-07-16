@@ -1,6 +1,5 @@
 # LiteCopy
-
-[English](README.md) | [中文](README_zh.md) | Español | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
+[English](../README.md) | [中文](README_zh.md) | Español | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
 Una extensión ligera del navegador que elimina restricciones de copia, desbloquea el clic derecho y la selección de texto en cualquier sitio web.
 
@@ -14,7 +13,7 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 
 | Ventaja | Detalle |
 |---------|---------|
-| 🔓 **Desbloqueo instantáneo** | Elimina todas las restricciones de copia/selección al instante |
+| 🔓 **Activación instantánea** | Elimina todas las restricciones de copia/selección al instante |
 | 🔒 **Permisos mínimos** | Solo `activeTab` + `scripting` |
 | ⚡ **Ligero** | Menos de 15KB, 10KB empaquetado. Sin frameworks ni dependencias |
 | 🌍 **6 idiomas** | Inglés, Chino, Español, Alemán, Japonés, Francés |
@@ -26,7 +25,7 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 
 | Característica | Descripción |
 |----------------|-------------|
-| 🔓 **Eliminar restricciones CSS** | Anula `user-select:none` y `-webkit-user-select:none` |
+| 🔓 **Restaurar selección de texto** | Anula `user-select:none` y `-webkit-user-select:none` |
 | 🖱️ **Desbloquear clic derecho** | Restaura el menú contextual bloqueado |
 | ⌨️ **Desbloquear atajos** | Restaura Ctrl+C, Ctrl+V, Ctrl+A |
 | 🛡️ **Eliminar capas protectoras** | Desactiva capas transparentes que bloquean la selección |
@@ -74,6 +73,12 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 
 - ✅ Cero subida de datos · Sin analíticas · Sin solicitudes de red
 - ✅ Permisos mínimos: solo `activeTab` + `scripting`
+
+---
+
+## Aviso de derechos de autor
+
+Esta herramienta solo restaura las capacidades de operación de texto integradas en el navegador para el aprendizaje personal, la referencia y la lectura sin conexión de los usuarios. Todos los derechos de autor del texto, las imágenes y el contenido del sitio web pertenecen al autor original y al operador del sitio. Los usuarios no deben usar esta herramienta para reproducción comercial, rastreo masivo, republicación de contenido y otras conductas que infrinjan los derechos de autor. Todas las responsabilidades legales derivadas del uso inadecuado serán asumidas únicamente por el usuario.
 
 ---
 

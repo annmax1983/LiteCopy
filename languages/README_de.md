@@ -1,6 +1,5 @@
 # LiteCopy
-
-[English](README.md) | [中文](README_zh.md) | [Español](README_es.md) | Deutsch | [日本語](README_ja.md) | [Français](README_fr.md)
+[English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | Deutsch | [日本語](README_ja.md) | [Français](README_fr.md)
 
 Eine leichtgewichtige Browser-Erweiterung, die Kopierbeschränkungen entfernt, Rechtsklick entsperrt und Textauswahl auf jeder Website freischaltet.
 
@@ -26,9 +25,9 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 
 | Funktion | Beschreibung |
 |----------|-------------|
-| 🔓 **CSS-Beschränkungen entfernen** | Überschreibt `user-select:none` |
-| 🖱️ **Rechtsklick entsperren** | Stellt blockiertes Kontextmenü wieder her |
-| ⌨️ **Tastenkürzel entsperren** | Stellt Strg+C, Strg+V, Strg+A wieder her |
+| 🔓 **Textauswahl wiederherstellen** | Überschreibt `user-select:none` |
+| 🖱️ **Rechtsklick-Menü wiederherstellen** | Stellt blockiertes Kontextmenü wieder her |
+| ⌨️ **Tastenkürzel wiederherstellen** | Stellt Strg+C, Strg+V, Strg+A wieder her |
 | 🛡️ **Overlays entfernen** | Deaktiviert transparente Schutzschichten |
 | 🔄 **ON/OFF umschalten** | Klick auf Symbol zum Aktivieren/Deaktivieren |
 
@@ -63,7 +62,7 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 
 1. Besuchen Sie eine Website mit Kopierbeschränkungen
 2. Klicken Sie auf das **LiteCopy**-Symbol
-3. Alle Beschränkungen werden sofort entfernt
+3. Textauswahl wird sofort wiederhergestellt
 4. Klicken Sie erneut zum Deaktivieren (Seite wird neu geladen)
 
 ---
@@ -72,6 +71,12 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 
 - ✅ Keine Datenübertragung · Keine Analytik · Keine Netzwerkanfragen
 - ✅ Mindestberechtigungen: nur `activeTab` + `scripting`
+
+---
+
+## Urheberrechtlicher Haftungsausschluss
+
+Dieses Tool stellt nur grundlegende browserintegrierte Textverarbeitungsfunktionen für das persönliche Lernen, die Referenz und das Offline-Lesen der Benutzer wieder her. Alle Urheberrechte an Texten, Bildern und Inhalten der Website gehören dem ursprünglichen Autor und dem Website-Betreiber. Benutzer dürfen dieses Tool nicht für kommerzielle Vervielfältigung, Massen-Crawling, Inhalts-Weiterverbreitung und andere urheberrechtsverletzende Handlungen verwenden. Alle aus unsachgemäßer Nutzung resultierenden rechtlichen Verantwortlichkeiten gehen ausschließlich zu Lasten des Benutzers.
 
 ---
 

@@ -1,8 +1,7 @@
 # LiteCopy
+[English](../README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | Français
 
-[English](README.md) | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | Français
-
-Une extension de navigateur légère qui supprime les restrictions de copie, débloque le clic droit et la sélection de texte sur tout site web.
+Une extension de navigateur légère qui restaure la sélection de texte, le menu clic droit et les raccourcis copier/coller sur tout site web.
 
 > Chromium · Manifest V3 · Permissions minimales · 100% Local
 
@@ -14,7 +13,7 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 
 | Avantage | Détail |
 |----------|--------|
-| 🔓 **Déblocage instantané** | Supprime toutes les restrictions de copie/sélection instantanément |
+| 🔓 **Activation instantanée** | Restaure la sélection de texte instantanément |
 | 🔒 **Permissions minimales** | Seulement `activeTab` + `scripting` |
 | ⚡ **Léger** | Moins de 15KB, 10KB empaqueté. Sans frameworks ni dépendances |
 | 🌍 **6 langues** | Anglais, Chinois, Espagnol, Allemand, Japonais, Français |
@@ -26,7 +25,7 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 
 | Fonctionnalité | Description |
 |----------------|-------------|
-| 🔓 **Supprimer les restrictions CSS** | Remplace `user-select:none` |
+| 🔓 **Restaurer la sélection de texte** | Remplace `user-select:none` |
 | 🖱️ **Débloquer le clic droit** | Restaure le menu contextuel bloqué |
 | ⌨️ **Débloquer les raccourcis** | Restaure Ctrl+C, Ctrl+V, Ctrl+A |
 | 🛡️ **Supprimer les calques** | Désactive les couches transparentes de protection |
@@ -63,7 +62,7 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 
 1. Visitez un site web qui bloque la copie ou la sélection
 2. Cliquez sur l'icône **LiteCopy**
-3. Toutes les restrictions sont supprimées instantanément
+3. La sélection de texte est restaurée instantanément
 4. Cliquez à nouveau pour désactiver (la page se recharge)
 
 ---
@@ -72,6 +71,12 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 
 - ✅ Zéro upload · Pas d'analytics · Pas de requêtes réseau
 - ✅ Permissions minimales : seulement `activeTab` + `scripting`
+
+---
+
+## Avis de droit d'auteur
+
+Cet outil ne restaure que les capacités d'opération textuelle intégrées au navigateur pour l'apprentissage personnel, la référence et la lecture hors ligne des utilisateurs. Tous les droits d'auteur du texte, des images et du contenu du site web appartiennent à l'auteur original et à l'exploitant du site. Les utilisateurs ne doivent pas utiliser cet outil pour la reproduction commerciale, le crawling massif, la republication de contenu et autres comportements portant atteinte aux droits d'auteur. Toutes les responsabilités légales découlant d'une utilisation inappropriée seront supportées uniquement par l'utilisateur.
 
 ---
 
