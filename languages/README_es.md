@@ -3,7 +3,7 @@
 
 Una extensión ligera del navegador que elimina restricciones de copia, desbloquea el clic derecho y la selección de texto en cualquier sitio web.
 
-> Chromium · Manifest V3 · Permisos mínimos · 100% Local
+> Chromium · Manifest V3 · Permisos mínimos · Local Only
 
 ---
 

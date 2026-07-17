@@ -1,10 +1,10 @@
 # LiteCopy
 
-English | [中文](README_zh.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
+English | [中文](languages/README_zh.md) | [Español](languages/README_es.md) | [Deutsch](languages/README_de.md) | [日本語](languages/README_ja.md) | [Français](languages/README_fr.md)
 
-A lightweight browser extension that removes copy restrictions, unblocks right-click, and unlocks text selection on any website.
+A lightweight browser extension that restores native text selection, right-click menu, and copy shortcuts on any website.
 
-> Chromium-based · Manifest V3 · Minimal Permissions · 100% Local
+> Chromium-based · Manifest V3 · Minimal Permissions · Local Only
 
 ---
 
@@ -14,11 +14,11 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 | Advantage | Detail |
 |-----------|--------|
-| 🔓 **One-Click Unlock** | Remove all copy/select restrictions instantly — no page refresh needed |
+| 🔓 **One-Click Activate** | Restore native text selection instantly — no page refresh needed |
 | 🔒 **Minimal Permissions** | Only `activeTab` + `scripting` — no unnecessary access |
 | ⚡ **Lightweight** | Under 15KB source, 10KB packaged. No frameworks, no dependencies |
 | 🌍 **6 Languages** | English, Chinese, Spanish, German, Japanese, French |
-| 🚫 **Zero Tracking** | No analytics, no network requests, no data upload |
+| 🚫 **No Tracking** | No analytics, no network requests, no data upload |
 | 🎯 **Simple Toggle** | Click icon to enable/disable, clear ON/OFF state indicator |
 
 ---
@@ -27,10 +27,10 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 | Feature | Description |
 |---------|-------------|
-| 🔓 **Remove CSS Restrictions** | Overrides `user-select:none` and `-webkit-user-select:none` |
-| 🖱️ **Unblock Right-Click** | Restores context menu on sites that block it |
-| ⌨️ **Unblock Shortcuts** | Restores Ctrl+C, Ctrl+V, Ctrl+A and other copy/paste keys |
-| 🛡️ **Remove Overlays** | Disables transparent overlay divs that block text selection |
+| 🔓 **Restore Text Selection** | Restores default text selection on sites that disable it |
+| 🖱️ **Restore Right-Click Menu** | Recovers browser right-click menu on restricted sites |
+| ⌨️ **Restore Keyboard Shortcuts** | Recovers Ctrl+C, Ctrl+V, Ctrl+A and other standard shortcuts |
+| 🛡️ **Fix Overlay Interference** | Fixes transparent overlay divs that interfere with text selection |
 | 🔄 **Toggle ON/OFF** | Click toolbar icon to enable/disable, page reloads when disabled |
 | 💬 **Toast Notification** | Auto-dismissing notification shows activation status |
 | 📋 **Copy Page Info** | Popup buttons to copy page title, URL, or both |
@@ -70,7 +70,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 1. Visit any website that blocks copying or text selection
 2. Click the **LiteCopy** icon in your toolbar
-3. All restrictions are removed instantly
+3. Text selection is restored instantly
 4. Click the icon again to disable (page reloads to restore original behavior)
 
 **Copy Page Info:**
@@ -86,6 +86,12 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 - ✅ **No network requests** — Extension works completely offline
 - ✅ **Minimal permissions** — Only `activeTab` + `scripting`
 - ✅ **No site memory** — No blacklist/whitelist, no site preferences stored
+
+---
+
+## Copyright Disclaimer
+
+This tool only restores basic browser built-in text operation capabilities for users' personal learning, reference and offline reading. All text, pictures and content copyright of the website belong to the original author and website operator. Users shall not use this tool for commercial reproduction, mass crawling, content reprinting and other copyright-infringing behaviors. All legal liabilities arising from improper use shall be borne solely by the user.
 
 ---
 

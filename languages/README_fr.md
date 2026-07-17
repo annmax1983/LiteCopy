@@ -3,7 +3,7 @@
 
 Une extension de navigateur légère qui restaure la sélection de texte, le menu clic droit et les raccourcis copier/coller sur tout site web.
 
-> Chromium · Manifest V3 · Permissions minimales · 100% Local
+> Chromium · Manifest V3 · Permissions minimales · Local Only
 
 ---
 
