@@ -3,7 +3,7 @@
 
 Una extensión ligera del navegador que elimina restricciones de copia, desbloquea el clic derecho y la selección de texto en cualquier sitio web.
 
-> Chromium · Manifest V3 · Permisos mínimos · Local Only
+> Chromium · Manifest V3 · Permisos mínimos · Gratis + Premium
 
 ---
 
@@ -14,10 +14,10 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 | Ventaja | Detalle |
 |---------|---------|
 | 🔓 **Activación instantánea** | Elimina todas las restricciones de copia/selección al instante |
-| 🔒 **Permisos mínimos** | Solo `activeTab` + `scripting` |
-| ⚡ **Ligero** | Menos de 15KB, 10KB empaquetado. Sin frameworks ni dependencias |
+| 🔒 **Permisos mínimos** | `activeTab` + `scripting` + `storage` |
+| ⚡ **Ligero** | Sin frameworks ni dependencias en tiempo de ejecución |
 | 🌍 **6 idiomas** | Inglés, Chino, Español, Alemán, Japonés, Francés |
-| 🚫 **Sin rastreo** | Sin analíticas, sin solicitudes de red, sin subida de datos |
+| 🚫 **Sin rastreo** | Sin analíticas, sin telemetría. El plan gratuito no envía datos; la activación Premium solo envía un ID de dispositivo y tu clave para verificar en api.annmax1983.com |
 
 ---
 
@@ -29,10 +29,24 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 | 🖱️ **Desbloquear clic derecho** | Restaura el menú contextual bloqueado |
 | ⌨️ **Desbloquear atajos** | Restaura Ctrl+C, Ctrl+V, Ctrl+A |
 | 🛡️ **Eliminar capas protectoras** | Desactiva capas transparentes que bloquean la selección |
-| 🔄 **Alternar ON/OFF** | Clic en el icono para activar/desactivar |
+| 🔄 **Alternar ON/OFF** | Activar/desactivar desde el popup |
 | 💬 **Notificación** | Notificación automática muestra el estado de activación |
 
 ---
+
+## Precios
+
+| Plan | Precio | Detalles |
+|------|--------|----------|
+| Gratis | $0 | 100 desbloqueos/día, funciones principales |
+| Herramienta Mensual | $2.99/mes | LiteCopy ilimitado |
+| Herramienta De Por Vida | $9.99 | Pago único, acceso permanente |
+| Suite Mensual | $3.99/mes | Todas las extensiones VKT |
+| Suite De Por Vida | $19.99 | Todas las extensiones VKT, permanente |
+
+Ver [Precios VKT](https://www.annmax1983.com/pricing.html).
+
+> **Límite gratuito:** 100 desbloqueos de sitios por día. El contador se restablece a medianoche. Premium para ilimitado: [Obtener licencia →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
 ## Vista previa
 
@@ -63,16 +77,19 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 ## Uso
 
 1. Visite cualquier sitio web que bloquee la copia o selección
-2. Haga clic en el icono de **LiteCopy**
-3. Todas las restricciones se eliminan al instante
-4. Haga clic de nuevo para desactivar (la página se recarga)
+2. Haga clic en el icono de **LiteCopy** — se abre el popup
+3. Haga clic en **Activar** — las restricciones se eliminan al instante
+4. Para desactivar, abra el popup de nuevo y haga clic en **Desactivar** (la página se recarga)
+
+> **Nota:** algunas páginas restringidas del navegador (`chrome://`, Chrome Web Store, etc.) no se pueden modificar. El popup muestra un error y no se consume ningún desbloqueo.
 
 ---
 
 ## Privacidad
 
-- ✅ Cero subida de datos · Sin analíticas · Sin solicitudes de red
-- ✅ Permisos mínimos: solo `activeTab` + `scripting`
+- ✅ Sin analíticas · Sin telemetría
+- ✅ Nivel gratuito: cero solicitudes de red — todo se procesa localmente; no se envía nada salvo que actives Premium
+- ✅ Permisos mínimos: `activeTab` + `scripting` + `storage`, más el dominio de la API de licencias
 
 ---
 

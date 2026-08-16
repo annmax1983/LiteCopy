@@ -3,7 +3,7 @@
 
 Une extension de navigateur légère qui restaure la sélection de texte, le menu clic droit et les raccourcis copier/coller sur tout site web.
 
-> Chromium · Manifest V3 · Permissions minimales · Local Only
+> Chromium · Manifest V3 · Permissions minimales · Gratuit + Premium
 
 ---
 
@@ -14,10 +14,10 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 | Avantage | Détail |
 |----------|--------|
 | 🔓 **Activation instantanée** | Restaure la sélection de texte instantanément |
-| 🔒 **Permissions minimales** | Seulement `activeTab` + `scripting` |
-| ⚡ **Léger** | Moins de 15KB, 10KB empaqueté. Sans frameworks ni dépendances |
+| 🔒 **Permissions minimales** | `activeTab` + `scripting` + `storage` |
+| ⚡ **Léger** | Sans frameworks ni dépendances d'exécution |
 | 🌍 **6 langues** | Anglais, Chinois, Espagnol, Allemand, Japonais, Français |
-| 🚫 **Zéro tracking** | Pas d'analytics, pas de requêtes réseau, pas de upload |
+| 🚫 **Zéro tracking** | Pas d'analytics, pas de télémétrie. Le plan gratuit n'envoie aucune donnée ; l'activation Premium envoie uniquement un ID d'appareil et votre clé pour vérification sur api.annmax1983.com |
 
 ---
 
@@ -29,9 +29,23 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 | 🖱️ **Débloquer le clic droit** | Restaure le menu contextuel bloqué |
 | ⌨️ **Débloquer les raccourcis** | Restaure Ctrl+C, Ctrl+V, Ctrl+A |
 | 🛡️ **Supprimer les calques** | Désactive les couches transparentes de protection |
-| 🔄 **Basculer ON/OFF** | Clic sur l'icône pour activer/désactiver |
+| 🔄 **Basculer ON/OFF** | Activer/désactiver depuis le popup |
 
 ---
+
+## Tarifs
+
+| Plan | Prix | Détails |
+|------|------|---------|
+| Gratuit | $0 | 100 déblocages/jour, fonctions principales |
+| Outil Mensuel | 2,99 $/mois | LiteCopy illimité |
+| Outil À Vie | 9,99 $ | Paiement unique, accès permanent |
+| Suite Mensuelle | 3,99 $/mois | Toutes les extensions VKT |
+| Suite À Vie | 19,99 $ | Toutes les extensions VKT, permanent |
+
+Voir [les tarifs VKT](https://www.annmax1983.com/pricing.html).
+
+> **Limite gratuite :** 100 déblocages de sites par jour. Le compteur se réinitialise à minuit. Premium pour illimité : [Obtenir une licence →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
 ## Aperçu
 
@@ -61,16 +75,19 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 ## Utilisation
 
 1. Visitez un site web qui bloque la copie ou la sélection
-2. Cliquez sur l'icône **LiteCopy**
-3. La sélection de texte est restaurée instantanément
-4. Cliquez à nouveau pour désactiver (la page se recharge)
+2. Cliquez sur l'icône **LiteCopy** — le popup s'ouvre
+3. Cliquez sur **Activer** — la sélection de texte est restaurée instantanément
+4. Pour désactiver, rouvrez le popup et cliquez sur **Désactiver** (la page se recharge)
+
+> **Remarque :** certaines pages restreintes du navigateur (`chrome://`, Chrome Web Store, etc.) ne peuvent pas être modifiées. Le popup affiche une erreur et aucun déblocage n'est consommé.
 
 ---
 
 ## Confidentialité
 
-- ✅ Zéro upload · Pas d'analytics · Pas de requêtes réseau
-- ✅ Permissions minimales : seulement `activeTab` + `scripting`
+- ✅ Pas d'analytics · Pas de télémétrie
+- ✅ Plan gratuit : zéro requête réseau — tout est traité localement ; rien n'est envoyé sauf si vous activez Premium
+- ✅ Permissions minimales : `activeTab` + `scripting` + `storage`, plus le domaine de l'API de licences
 
 ---
 

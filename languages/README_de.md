@@ -3,7 +3,7 @@
 
 Eine leichtgewichtige Browser-Erweiterung, die Kopierbeschränkungen entfernt, Rechtsklick entsperrt und Textauswahl auf jeder Website freischaltet.
 
-> Chromium · Manifest V3 · Mindestberechtigungen · 100% Lokal
+> Chromium · Manifest V3 · Mindestberechtigungen · Kostenlos + Premium
 
 ---
 
@@ -14,10 +14,10 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 | Vorteil | Detail |
 |---------|--------|
 | 🔓 **Sofortige Entsperrung** | Entfernt alle Kopier-/Auswahlbeschränkungen sofort |
-| 🔒 **Mindestberechtigungen** | Nur `activeTab` + `scripting` |
-| ⚡ **Leichtgewichtig** | Unter 15KB, 10KB gepackt. Keine Frameworks, keine Abhängigkeiten |
+| 🔒 **Mindestberechtigungen** | `activeTab` + `scripting` + `storage` |
+| ⚡ **Leichtgewichtig** | Keine Frameworks, keine Laufzeitabhängigkeiten |
 | 🌍 **6 Sprachen** | Englisch, Chinesisch, Spanisch, Deutsch, Japanisch, Französisch |
-| 🚫 **Kein Tracking** | Keine Analytik, keine Netzwerkanfragen, keine Datenuploads |
+| 🚫 **Kein Tracking** | Keine Analytik, keine Telemetrie. Die kostenlose Stufe sendet keine Daten; die Premium-Aktivierung sendet nur eine Geräte-ID und deinen Schlüssel zur Verifizierung an api.annmax1983.com |
 
 ---
 
@@ -29,9 +29,23 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 | 🖱️ **Rechtsklick-Menü wiederherstellen** | Stellt blockiertes Kontextmenü wieder her |
 | ⌨️ **Tastenkürzel wiederherstellen** | Stellt Strg+C, Strg+V, Strg+A wieder her |
 | 🛡️ **Overlays entfernen** | Deaktiviert transparente Schutzschichten |
-| 🔄 **ON/OFF umschalten** | Klick auf Symbol zum Aktivieren/Deaktivieren |
+| 🔄 **ON/OFF umschalten** | Aktivieren/Deaktivieren über das Popup |
 
 ---
+
+## Preise
+
+| Plan | Preis | Details |
+|------|-------|---------|
+| Kostenlos | $0 | 100 Freischaltungen/Tag, alle Kernfunktionen |
+| Einzelwerkzeug Monatlich | $2,99/Monat | LiteCopy unbegrenzt |
+| Einzelwerkzeug Lebenslang | $9,99 | Einmalzahlung, dauerhaft |
+| Suite Monatlich | $3,99/Monat | Alle VKT-Erweiterungen, unbegrenzt |
+| Suite Lebenslang | $19,99 | Alle VKT-Erweiterungen, dauerhaft |
+
+Siehe [VKT Preise](https://www.annmax1983.com/pricing.html).
+
+> **Kostenlos-Limit:** 100 Website-Freischaltungen pro Tag. Zähler wird um Mitternacht zurückgesetzt. Premium für unbegrenzt: [Lizenz erhalten →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
 ## Vorschau
 
@@ -61,15 +75,18 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 ## Verwendung
 
 1. Besuchen Sie eine Website mit Kopierbeschränkungen
-2. Klicken Sie auf das **LiteCopy**-Symbol
-3. Textauswahl wird sofort wiederhergestellt
-4. Klicken Sie erneut zum Deaktivieren (Seite wird neu geladen)
+2. Klicken Sie auf das **LiteCopy**-Symbol — das Popup öffnet sich
+3. Klicken Sie auf **Aktivieren** — die Textauswahl wird sofort wiederhergestellt
+4. Zum Deaktivieren öffnen Sie das Popup erneut und klicken auf **Deaktivieren** (die Seite wird neu geladen)
+
+> **Hinweis:** Vom Browser geschützte Seiten (`chrome://`, Chrome Web Store usw.) können nicht verändert werden. Das Popup zeigt einen Fehler an und es wird kein Freischaltpunkt verbraucht.
 
 ---
 
 ## Datenschutz
 
-- ✅ Keine Datenübertragung · Keine Analytik · Keine Netzwerkanfragen
+- ✅ Keine Analytik · Keine Telemetrie
+- ✅ Kostenlose Stufe: keine Netzwerkanfragen — alles wird lokal verarbeitet; nichts wird gesendet, außer du aktivierst Premium
 - ✅ Mindestberechtigungen: nur `activeTab` + `scripting`
 
 ---
