@@ -91,6 +91,13 @@ Siehe [VKT Preise](https://www.annmax1983.com/pricing.html).
 
 ---
 
+---
+
+## Hinweis zum Quellcode
+
+> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation, Versionshinweise und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Quellcodes für Endbenutzer bereitgestellt.
+
+
 ## Urheberrechtlicher Haftungsausschluss
 
 Dieses Tool stellt nur grundlegende browserintegrierte Textverarbeitungsfunktionen für das persönliche Lernen, die Referenz und das Offline-Lesen der Benutzer wieder her. Alle Urheberrechte an Texten, Bildern und Inhalten der Website gehören dem ursprünglichen Autor und dem Website-Betreiber. Benutzer dürfen dieses Tool nicht für kommerzielle Vervielfältigung, Massen-Crawling, Inhalts-Weiterverbreitung und andere urheberrechtsverletzende Handlungen verwenden. Alle aus unsachgemäßer Nutzung resultierenden rechtlichen Verantwortlichkeiten gehen ausschließlich zu Lasten des Benutzers.

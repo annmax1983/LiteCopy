@@ -91,6 +91,13 @@ Voir [les tarifs VKT](https://www.annmax1983.com/pricing.html).
 
 ---
 
+---
+
+## Avis sur le code source
+
+> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation, les notes de mise à jour et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store. Aucun package d'installation hors ligne ni code source pour les utilisateurs finaux n'est fourni.
+
+
 ## Avis de droit d'auteur
 
 Cet outil ne restaure que les capacités d'opération textuelle intégrées au navigateur pour l'apprentissage personnel, la référence et la lecture hors ligne des utilisateurs. Tous les droits d'auteur du texte, des images et du contenu du site web appartiennent à l'auteur original et à l'exploitant du site. Les utilisateurs ne doivent pas utiliser cet outil pour la reproduction commerciale, le crawling massif, la republication de contenu et autres comportements portant atteinte aux droits d'auteur. Toutes les responsabilités légales découlant d'une utilisation inappropriée seront supportées uniquement par l'utilisateur.

@@ -93,6 +93,13 @@ Ver [Precios VKT](https://www.annmax1983.com/pricing.html).
 
 ---
 
+---
+
+## Aviso de código fuente
+
+> ⚠️ **Este repositorio no publica el código fuente.** Contiene únicamente documentación de uso, notas de versión y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store. No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
+
+
 ## Aviso de derechos de autor
 
 Esta herramienta solo restaura las capacidades de operación de texto integradas en el navegador para el aprendizaje personal, la referencia y la lectura sin conexión de los usuarios. Todos los derechos de autor del texto, las imágenes y el contenido del sitio web pertenecen al autor original y al operador del sitio. Los usuarios no deben usar esta herramienta para reproducción comercial, rastreo masivo, republicación de contenido y otras conductas que infrinjan los derechos de autor. Todas las responsabilidades legales derivadas del uso inadecuado serán asumidas únicamente por el usuario.
