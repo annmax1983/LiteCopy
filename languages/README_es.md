@@ -38,15 +38,15 @@ Una extensión ligera del navegador que elimina restricciones de copia, desbloqu
 
 | Plan | Precio | Detalles |
 |------|--------|----------|
-| Gratis | $0 | 100 desbloqueos/día, funciones principales |
-| Herramienta Mensual | $2.99/mes | LiteCopy ilimitado |
+| Gratis | $0 | 100 copias/día, funciones principales |
+| Herramienta Mensual | $2.99/mes | LiteCopy copias ilimitadas |
 | Herramienta De Por Vida | $9.99 | Pago único, acceso permanente |
 | Suite Mensual | $3.99/mes | Todas las extensiones VKT |
 | Suite De Por Vida | $19.99 | Todas las extensiones VKT, permanente |
 
 Ver [Precios VKT](https://www.annmax1983.com/pricing.html).
 
-> **Límite gratuito:** 100 desbloqueos de sitios por día. El contador se restablece a medianoche. Premium para ilimitado: [Obtener licencia →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
+> **Límite gratuito:** 100 copias por día. Activar es siempre gratis — cada copia que hagas en una página activada cuenta para el límite diario. El contador se restablece a medianoche. Premium para ilimitado: [Obtener licencia →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
 ## Vista previa
 

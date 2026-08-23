@@ -37,15 +37,15 @@ Haben Sie schon einmal versucht, Text von einer Website zu kopieren, aber konnte
 
 | Plan | Preis | Details |
 |------|-------|---------|
-| Kostenlos | $0 | 100 Freischaltungen/Tag, alle Kernfunktionen |
-| Einzelwerkzeug Monatlich | $2,99/Monat | LiteCopy unbegrenzt |
+| Kostenlos | $0 | 100 Kopien/Tag, alle Kernfunktionen |
+| Einzelwerkzeug Monatlich | $2,99/Monat | LiteCopy Kopien unbegrenzt |
 | Einzelwerkzeug Lebenslang | $9,99 | Einmalzahlung, dauerhaft |
 | Suite Monatlich | $3,99/Monat | Alle VKT-Erweiterungen, unbegrenzt |
 | Suite Lebenslang | $19,99 | Alle VKT-Erweiterungen, dauerhaft |
 
 Siehe [VKT Preise](https://www.annmax1983.com/pricing.html).
 
-> **Kostenlos-Limit:** 100 Website-Freischaltungen pro Tag. Zähler wird um Mitternacht zurückgesetzt. Premium für unbegrenzt: [Lizenz erhalten →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
+> **Kostenlos-Limit:** 100 Kopien pro Tag. Aktivieren ist immer kostenlos — jede Kopie auf einer aktivierten Seite zählt zum Tageslimit. Zähler wird um Mitternacht zurückgesetzt. Premium für unbegrenzt: [Lizenz erhalten →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
 ## Vorschau
 

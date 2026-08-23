@@ -25,7 +25,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 ## Features
 
-### 🆓 Free (100 unlocks/day)
+### 🆓 Free (100 copies/day)
 
 | Feature | Description |
 |---------|-------------|
@@ -37,13 +37,13 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | 💬 **Toast Notification** | Auto-dismissing notification shows activation status |
 | 📋 **Copy Page Info** | Popup buttons to copy page title, URL, or both |
 
-> **Free tier limit:** 100 site unlocks per day. The counter resets at midnight (local time). Copy Page Info buttons (title/URL) are always free and do not count toward the limit.
+> **Free tier limit:** 100 copies per day. Enabling is always free — each copy you make on an enabled page counts toward the daily limit. The counter resets at midnight (local time). Copy Page Info buttons (title/URL) are always free and do not count.
 
 ### ⭐ Premium (License Required — Unlimited)
 
 | Feature | Description |
 |---------|-------------|
-| ♾️ **Unlimited Unlocks** | No daily limit — enable on as many sites as you want |
+| ♾️ **Unlimited Copies** | No daily limit — copy as much as you want |
 | 📤 **Export/Import Settings** | Backup and restore your preferences (coming soon) |
 
 > 💡 One-time purchase or monthly subscription. [Get License →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
@@ -54,8 +54,8 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 | Plan | Price | Details |
 |------|-------|---------|
-| Free | $0 | 100 unlocks/day, all core features |
-| Single Tool Monthly | $2.99/mo | Unlimited unlocks for LiteCopy |
+| Free | $0 | 100 copies/day, all core features |
+| Single Tool Monthly | $2.99/mo | Unlimited copies for LiteCopy |
 | Single Tool Lifetime | $9.99 | One-time payment, permanent access |
 | Full Suite Monthly | $3.99/mo | All VKT extensions, unlimited |
 | Full Suite Lifetime | $19.99 | All VKT extensions, permanent |
@@ -100,15 +100,15 @@ See [VKT Pricing](https://www.annmax1983.com/pricing.html) for details.
 3. Click **Enable** — text selection is restored instantly
 4. To disable, open the popup again and click **Disable** (the page reloads to restore original behavior)
 
-> **Note:** Some browser-restricted pages (`chrome://`, the Chrome Web Store, etc.) cannot be modified. The popup shows an error and no daily unlock is consumed.
+> **Note:** Some browser-restricted pages (`chrome://`, the Chrome Web Store, etc.) cannot be modified. The popup shows an error.
 
 **Copy Page Info:**
 - Click the icon → popup opens
 - Use buttons to copy page title, URL, or both
 
 **Check Usage:**
-- The usage bar at the top shows your daily unlock count
-- Free users: 100/day, resets at midnight
+- The usage bar at the top shows your daily copy count
+- Free users: 100 copies/day, resets at midnight
 - Premium users: ⭐ Unlimited
 
 ---

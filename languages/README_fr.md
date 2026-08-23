@@ -37,15 +37,15 @@ Avez-vous déjà essayé de copier du texte sur un site web sans pouvoir le sél
 
 | Plan | Prix | Détails |
 |------|------|---------|
-| Gratuit | $0 | 100 déblocages/jour, fonctions principales |
-| Outil Mensuel | 2,99 $/mois | LiteCopy illimité |
+| Gratuit | $0 | 100 copies/jour, fonctions principales |
+| Outil Mensuel | 2,99 $/mois | LiteCopy copies illimitées |
 | Outil À Vie | 9,99 $ | Paiement unique, accès permanent |
 | Suite Mensuelle | 3,99 $/mois | Toutes les extensions VKT |
 | Suite À Vie | 19,99 $ | Toutes les extensions VKT, permanent |
 
 Voir [les tarifs VKT](https://www.annmax1983.com/pricing.html).
 
-> **Limite gratuite :** 100 déblocages de sites par jour. Le compteur se réinitialise à minuit. Premium pour illimité : [Obtenir une licence →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
+> **Limite gratuite :** 100 copies par jour. L'activation est toujours gratuite — chaque copie effectuée sur une page activée compte pour la limite quotidienne. Le compteur se réinitialise à minuit. Premium pour illimité : [Obtenir une licence →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
 ## Aperçu
 
