@@ -4,7 +4,7 @@
 
 Una extensión ligera para el navegador que restaura la selección de texto nativa, el menú de clic derecho y los atajos de copiar en cualquier sitio web.
 
-> Basada en Chromium · Manifest V3 · Permisos mínimos · Niveles gratuito y Premium
+> Basada en Chromium · Manifest V3 · Procesamiento 100 % local · Niveles gratuito y Premium
 
 ---
 
@@ -15,7 +15,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 | Ventaja | Detalle |
 |---------|--------|
 | 🔓 **Activar con un clic** | Restaura la selección de texto nativa al instante — sin necesidad de recargar la página |
-| 🔒 **Permisos mínimos** | `activeTab` + `scripting` + `storage` — nada más allá de lo que la funcionalidad necesita |
+| 🔒 **Procesamiento local** | `activeTab` + `scripting` + `storage` ejecutan el desbloqueo; el acceso a sitios solo se usa para inyectarlo en las páginas que actives |
 | ⚡ **Ligera** | Sin frameworks, sin dependencias en tiempo de ejecución |
 | 🌍 **6 idiomas** | Inglés, chino, español, alemán, japonés y francés |
 | 🚫 **Sin rastreo** | Sin analíticas, sin telemetría. El nivel gratuito no envía ningún dato; la activación Premium verifica solo un ID de dispositivo + tu clave contra api.annmax1983.com |
@@ -34,6 +34,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 | ⌨️ **Restaurar atajos de teclado** | Recupera Ctrl+C, Ctrl+V, Ctrl+A y otros atajos estándar |
 | 🛡️ **Corregir interferencia de superposiciones** | Corrige los divs de superposición transparente que interfieren con la selección de texto |
 | 🔄 **Interruptor ON/OFF** | Activa/Desactiva desde el popup, la página se recarga al desactivar |
+| 🧠 **Sitios recordados** | Los sitios que actives se recuerdan localmente y se activan solos en la próxima visita |
 | 💬 **Notificación emergente** | Notificación auto-descartable que muestra el estado de activación |
 | 📋 **Copiar información de la página** | Botones en el popup para copiar el título de la página, la URL o ambos |
 
@@ -117,8 +118,8 @@ Consulta [VKT Pricing](https://www.annmax1983.com/pricing.html) para más detall
 
 - ✅ **Sin analíticas** — Sin rastreo, sin telemetría
 - ✅ **Nivel gratuito: cero solicitudes de red** — Todo el procesamiento ocurre localmente; no se envía nada a menos que actives Premium
-- ✅ **Permisos mínimos** — `activeTab` + `scripting` + `storage`, más el host de la API de licencias
-- ✅ **Sin memoria de sitios** — Sin lista negra/blanca, sin preferencias de sitio almacenadas
+- ✅ **Permisos concretos** — `activeTab` + `scripting` + `storage` ejecutan el desbloqueo, más el acceso a sitios usado únicamente para inyectarlo en las páginas que actives, y el host de la API de licencias
+- ✅ **La memoria de sitios se queda en tu dispositivo** — Activar LiteCopy en un sitio guarda ese dominio en `chrome.storage.local` para que las visitas posteriores se activen solas. La lista nunca se sube ni se comparte, y la entrada se elimina cuando desactivas LiteCopy en ese sitio
 - ✅ **Solo verificación de licencia** — Si activas una licencia Premium, un ID de dispositivo mínimo y tu clave de licencia se envían a `api.annmax1983.com` para verificación. No se envían datos si no activas una licencia.
 
 ---

@@ -4,7 +4,7 @@ English | [中文](languages/README_zh.md) | [Español](languages/README_es.md) 
 
 A lightweight browser extension that restores native text selection, right-click menu, and copy shortcuts on any website.
 
-> Chromium-based · Manifest V3 · Minimal Permissions · Free + Premium tiers
+> Chromium-based · Manifest V3 · Local-only processing · Free + Premium tiers
 
 ---
 
@@ -15,7 +15,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | Advantage | Detail |
 |-----------|--------|
 | 🔓 **One-Click Activate** | Restore native text selection instantly — no page refresh needed |
-| 🔒 **Minimal Permissions** | `activeTab` + `scripting` + `storage` — nothing beyond what the feature needs |
+| 🔒 **Local-Only Processing** | `activeTab` + `scripting` + `storage` run the unlock; site access is used only to inject it on the pages you enable |
 | ⚡ **Lightweight** | No frameworks, no runtime dependencies |
 | 🌍 **6 Languages** | English, Chinese, Spanish, German, Japanese, French |
 | 🚫 **No Tracking** | No analytics, no telemetry. Free tier sends zero data; Premium activation verifies only a device ID + your key against api.annmax1983.com |
@@ -34,6 +34,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | ⌨️ **Restore Keyboard Shortcuts** | Recovers Ctrl+C, Ctrl+V, Ctrl+A and other standard shortcuts |
 | 🛡️ **Fix Overlay Interference** | Fixes transparent overlay divs that interfere with text selection |
 | 🔄 **Toggle ON/OFF** | Enable/Disable from the popup, page reloads when disabled |
+| 🧠 **Remembered Sites** | Sites you enable are remembered locally and auto-enabled on your next visit |
 | 💬 **Toast Notification** | Auto-dismissing notification shows activation status |
 | 📋 **Copy Page Info** | Popup buttons to copy page title, URL, or both |
 
@@ -117,8 +118,8 @@ See [VKT Pricing](https://www.annmax1983.com/pricing.html) for details.
 
 - ✅ **No analytics** — No tracking, no telemetry
 - ✅ **Free tier: zero network requests** — All processing happens locally; nothing is sent unless you activate Premium
-- ✅ **Minimal permissions** — `activeTab` + `scripting` + `storage`, plus the license API host
-- ✅ **No site memory** — No blacklist/whitelist, no site preferences stored
+- ✅ **Focused permissions** — `activeTab` + `scripting` + `storage` run the unlock, plus site access used solely to inject it on the pages you enable, and the license API host
+- ✅ **Site memory stays on your device** — Enabling LiteCopy on a site records that domain in `chrome.storage.local` so return visits auto-enable. The list is never uploaded or shared, and the entry is removed when you turn LiteCopy off for that site
 - ✅ **License verification only** — If you activate a Premium license, a minimal device ID and your license key are sent to `api.annmax1983.com` for verification. No data is sent if you don't activate a license.
 
 ---

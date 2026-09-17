@@ -4,7 +4,7 @@
 
 Eine schlanke Browser-Erweiterung, die native Textauswahl, Rechtsklick-Menü und Kopier-Tastenkürzel auf jeder Website wiederherstellt.
 
-> Chromium-basiert · Manifest V3 · Minimale Berechtigungen · Kostenlose + Premium-Stufen
+> Chromium-basiert · Manifest V3 · Nur lokale Verarbeitung · Kostenlose + Premium-Stufen
 
 ---
 
@@ -15,7 +15,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | Vorteil | Details |
 |---------|---------|
 | 🔓 **Ein-Klick-Aktivierung** | Native Textauswahl sofort wiederherstellen — kein Seiten-Neuladen nötig |
-| 🔒 **Minimale Berechtigungen** | `activeTab` + `scripting` + `storage` — nichts über das Feature hinaus |
+| 🔒 **Nur lokale Verarbeitung** | `activeTab` + `scripting` + `storage` führen das Entsperren aus; der Website-Zugriff dient nur dem Einfügen auf Seiten, die du aktivierst |
 | ⚡ **Leichtgewichtig** | Keine Frameworks, keine Laufzeitabhängigkeiten |
 | 🌍 **6 Sprachen** | Englisch, Chinesisch, Spanisch, Deutsch, Japanisch, Französisch |
 | 🚫 **Kein Tracking** | Keine Analytik, keine Telemetrie. Kostenlose Stufe sendet null Daten; Premium-Aktivierung verifiziert nur eine Geräte-ID + deinen Schlüssel gegen api.annmax1983.com |
@@ -34,8 +34,9 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | ⌨️ **Tastenkürzel wiederherstellen** | Stellt Strg+C, Strg+V, Strg+A und andere Standard-Tastenkürzel wieder her |
 | 🛡️ **Overlay-Interferenz beheben** | Behebt transparente Overlay-Divs, die die Textauswahl stören |
 | 🔄 **Ein/Aus umschalten** | Aktivieren/Deaktivieren aus dem Popup, Seite wird bei Deaktivierung neu geladen |
+| 🧠 **Gemerkte Seiten** | Aktivierte Seiten werden lokal gemerkt und beim nächsten Besuch automatisch aktiviert |
 | 💬 **Toast-Benachrichtigung** | Automatisch verschwindende Benachrichtigung zeigt Aktivierungsstatus |
-| �📋 **Seiteninfo kopieren** | Popup-Buttons zum Kopieren von Seitentitel, URL oder beidem |
+| 📋 **Seiteninfo kopieren** | Popup-Buttons zum Kopieren von Seitentitel, URL oder beidem |
 
 > **Limit der kostenlosen Stufe:** 100 Kopien pro Tag. Aktivierung ist immer kostenlos — jede Kopie, die du auf einer aktivierten Seite machst, zählt zum Tageslimit. Der Zähler setzt um Mitternacht (Ortszeit) zurück. Seiteninfo-Buttons (Titel/URL) sind immer kostenlos und zählen nicht mit.
 
@@ -117,8 +118,8 @@ Siehe [VKT Preise](https://www.annmax1983.com/pricing.html) für Details.
 
 - ✅ **Keine Analytik** — Kein Tracking, keine Telemetrie
 - ✅ **Kostenlose Stufe: null Netzwerk-Anfragen** — Alles passiert lokal; nichts wird gesendet, es sei denn, du aktivierst Premium
-- ✅ **Minimale Berechtigungen** — `activeTab` + `scripting` + `storage`, plus der Lizenz-API-Host
-- ✅ **Kein Seiten-Speicher** — Keine Blacklist/Whitelist, keine Seitenvorlieben gespeichert
+- ✅ **Gezielte Berechtigungen** — `activeTab` + `scripting` + `storage` führen das Entsperren aus, dazu Website-Zugriff, der ausschließlich dem Einfügen auf aktivierten Seiten dient, und der Lizenz-API-Host
+- ✅ **Seiten-Speicher bleibt auf deinem Gerät** — Wird LiteCopy auf einer Seite aktiviert, wird die Domain in `chrome.storage.local` gemerkt, damit spätere Besuche automatisch aktiviert werden. Die Liste wird nie hochgeladen oder geteilt, und der Eintrag wird entfernt, sobald du LiteCopy für diese Seite deaktivierst
 - ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Premium-Lizenz wird eine minimale Geräte-ID und dein Lizenzschlüssel zur Verifizierung an `api.annmax1983.com` gesendet. Ohne Lizenzaktivierung werden keine Daten gesendet.
 
 ---
