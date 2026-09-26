@@ -1,4 +1,5 @@
 # LiteCopy
+
 [English](../README.md) | 中文 | [Español](README_es.md) | [Deutsch](README_de.md) | [日本語](README_ja.md) | [Français](README_fr.md)
 
 一款轻量级浏览器扩展，一键恢复网页文本选中、右键菜单和复制粘贴功能。
@@ -44,30 +45,16 @@
 | 功能 | 说明 |
 |------|------|
 | ♾️ **无限复制** | 无每日限制 — 想复制多少就复制多少 |
-| 📤 **导出/导入设置** | 备份和恢复偏好设置（即将推出） |
+| 📤 **复制页面信息** | 标题 / 链接复制按钮始终免费，不计入每日限额 |
 
 > 💡 一次性购买或月度订阅。[获取许可证 →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
-
----
-
-## 定价
-
-| 方案 | 价格 | 说明 |
-|------|------|------|
-| 免费版 | $0 | 每日 100 次复制，全部核心功能 |
-| 单工具月付 | $2.99/月 | LiteCopy 无限复制 |
-| 单工具终身 | $9.99 | 一次付款，永久使用 |
-| 全套月付 | $3.99/月 | 所有 VKT 扩展，无限使用 |
-| 全套终身 | $19.99 | 所有 VKT 扩展，永久使用 |
-
-详见 [VKT 定价](https://www.annmax1983.com/pricing.html)。
 
 ---
 
 ## 预览
 
 <p align="center">
-  <img src="icons/icon128.png" alt="LiteCopy Icon" width="80">
+  <img src="../assets/favicon.png" alt="LiteCopy Icon" width="80">
 </p>
 
 ---
@@ -129,6 +116,12 @@
 
 ---
 
+## 隐私政策
+
+完整说明请见[隐私政策](../privacy-policy.html) —— 免费功能完全离线运行，零网络请求。
+
+---
+
 ## 许可证
 
 Copyright © 2026 LiteCopy. All rights reserved.
@@ -139,7 +132,7 @@ Copyright © 2026 LiteCopy. All rights reserved.
 
 如果你觉得 LiteCopy 有帮助，欢迎支持！
 
-**[👉 点击支持](https://annmax1983.github.io/LiteCopy/)**
+**[👉 点击支持](https://ko-fi.com/annmax?ref=litecopy)**
 
 ---
 

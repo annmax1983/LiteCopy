@@ -45,30 +45,16 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | Feature | Description |
 |---------|-------------|
 | ♾️ **Unlimited Copies** | No daily limit — copy as much as you want |
-| 📤 **Export/Import Settings** | Backup and restore your preferences (coming soon) |
+| 📤 **Copy Page Info** | Title / URL copy buttons are always free and never count toward the daily limit |
 
 > 💡 One-time purchase or monthly subscription. [Get License →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
-
----
-
-## Pricing
-
-| Plan | Price | Details |
-|------|-------|---------|
-| Free | $0 | 100 copies/day, all core features |
-| Single Tool Monthly | $2.99/mo | Unlimited copies for LiteCopy |
-| Single Tool Lifetime | $9.99 | One-time payment, permanent access |
-| Full Suite Monthly | $3.99/mo | All VKT extensions, unlimited |
-| Full Suite Lifetime | $19.99 | All VKT extensions, permanent |
-
-See [VKT Pricing](https://www.annmax1983.com/pricing.html) for details.
 
 ---
 
 ## Preview
 
 <p align="center">
-  <img src="icons/icon128.png" alt="LiteCopy Icon" width="80">
+  <img src="assets/favicon.png" alt="LiteCopy Icon" width="80">
 </p>
 
 ---
@@ -133,6 +119,12 @@ This tool only restores basic browser built-in text operation capabilities for u
 ## Source Code Notice
 
 > ⚠️ **This repository does not publish source code.** It contains only usage documentation, release notes, and support resources. The extension is distributed exclusively through the Chrome Web Store. No offline installation packages or end-user source code are provided.
+
+---
+
+## Privacy Policy
+
+See the full [Privacy Policy](privacy-policy.html) — free features are fully offline with zero network requests.
 
 ---
 

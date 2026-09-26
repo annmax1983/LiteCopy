@@ -45,30 +45,16 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 | Funcionalidad | Descripción |
 |---------|-------------|
 | ♾️ **Copias ilimitadas** | Sin límite diario — copia todo lo que quieras |
-| 📤 **Exportar/Importar configuración** | Haz una copia de seguridad y restaura tus preferencias (próximamente) |
+| 📤 **Copiar información de la página** | Los botones de título / URL son siempre gratuitos y no cuentan para el límite diario |
 
 > 💡 Compra única o suscripción mensual. [Obtener licencia →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
-
----
-
-## Precios
-
-| Plan | Precio | Detalles |
-|------|-------|---------|
-| Gratis | $0 | 100 copias/día, todas las funcionalidades principales |
-| Herramienta individual mensual | $2.99/mes | Copias ilimitadas para LiteCopy |
-| Herramienta individual de por vida | $9.99 | Pago único, acceso permanente |
-| Suite completa mensual | $3.99/mes | Todas las extensiones VKT, ilimitado |
-| Suite completa de por vida | $19.99 | Todas las extensiones VKT, permanente |
-
-Consulta [VKT Pricing](https://www.annmax1983.com/pricing.html) para más detalles.
 
 ---
 
 ## Vista previa
 
 <p align="center">
-  <img src="icons/icon128.png" alt="Icono de LiteCopy" width="80">
+  <img src="../assets/favicon.png" alt="Icono de LiteCopy" width="80">
 </p>
 
 ---
@@ -133,6 +119,12 @@ Esta herramienta solo restaura las capacidades básicas de operación de texto i
 ## Aviso sobre el código fuente
 
 > ⚠️ **Este repositorio no publica código fuente.** Contiene únicamente documentación de uso, notas de lanzamiento y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store. No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
+
+---
+
+## Política de Privacidad
+
+Consulta la [Política de Privacidad](../privacy-policy.html) completa — las funciones gratuitas funcionan totalmente sin conexión, con cero solicitudes de red.
 
 ---
 

@@ -45,30 +45,16 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | Funktion | Beschreibung |
 |----------|--------------|
 | ♾️ **Unbegrenzte Kopien** | Kein Tageslimit — so viel kopieren wie gewünscht |
-| 📤 **Einstellungen exportieren/importieren** | Einstellungen sichern und wiederherstellen (demnächst) |
+| 📤 **Seiteninfo kopieren** | Titel-/URL-Schaltflächen sind immer kostenlos und zählen nicht zum Tageslimit |
 
 > 💡 Einmaliger Kauf oder monatliches Abonnement. [Lizenz erhalten →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
-
----
-
-## Preise
-
-| Plan | Preis | Details |
-|------|-------|---------|
-| Kostenlos | $0 | 100 Kopien/Tag, alle Kernfunktionen |
-| Einzellizenz monatlich | $2.99/Monat | Unbegrenzte Kopien für LiteCopy |
-| Einzellizenz lebenslang | $9.99 | Einmalige Zahlung, dauerhafter Zugang |
-| Komplettpaket monatlich | $3.99/Monat | Alle VKT-Erweiterungen, unbegrenzt |
-| Komplettpaket lebenslang | $19.99 | Alle VKT-Erweiterungen, dauerhaft |
-
-Siehe [VKT Preise](https://www.annmax1983.com/pricing.html) für Details.
 
 ---
 
 ## Vorschau
 
 <p align="center">
-  <img src="icons/icon128.png" alt="LiteCopy Symbol" width="80">
+  <img src="../assets/favicon.png" alt="LiteCopy Symbol" width="80">
 </p>
 
 ---
@@ -133,6 +119,12 @@ Dieses Tool stellt nur grundlegende browser-interne Textverarbeitungsfunktionen 
 ## Quellcode-Hinweis
 
 > ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation, Versionshinweise und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Endbenutzer-Quellcodes bereitgestellt.
+
+---
+
+## Datenschutzrichtlinie
+
+Vollständige Details in der [Datenschutzrichtlinie](../privacy-policy.html) — kostenlose Funktionen arbeiten vollständig offline ohne Netzwerkanfragen.
 
 ---
 

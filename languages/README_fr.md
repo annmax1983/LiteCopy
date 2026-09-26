@@ -45,30 +45,16 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 | Fonctionnalité | Description |
 |---------|-------------|
 | ♾️ **Copies illimitées** | Pas de limite quotidienne — copiez autant que vous voulez |
-| 📤 **Export/Import des paramètres** | Sauvegardez et restaurez vos préférences (bientôt disponible) |
+| 📤 **Copier les infos de la page** | Les boutons titre / URL sont toujours gratuits et ne comptent pas dans la limite quotidienne |
 
 > 💡 Achat unique ou abonnement mensuel. [Obtenir une licence →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
-
----
-
-## Tarifs
-
-| Plan | Prix | Détails |
-|------|-------|---------|
-| Gratuit | 0 $ | 100 copies/jour, toutes les fonctionnalités de base |
-| Outil individuel mensuel | 2,99 $/mois | Copies illimitées pour LiteCopy |
-| Outil individuel à vie | 9,99 $ | Paiement unique, accès permanent |
-| Suite complète mensuelle | 3,99 $/mois | Toutes les extensions VKT, illimité |
-| Suite complète à vie | 19,99 $ | Toutes les extensions VKT, permanent |
-
-Voir les [tarifs VKT](https://www.annmax1983.com/pricing.html) pour plus de détails.
 
 ---
 
 ## Aperçu
 
 <p align="center">
-  <img src="icons/icon128.png" alt="Icône LiteCopy" width="80">
+  <img src="../assets/favicon.png" alt="Icône LiteCopy" width="80">
 </p>
 
 ---
@@ -133,6 +119,12 @@ Cet outil restaure uniquement les fonctions natives de manipulation de texte du 
 ## Avis sur le code source
 
 > ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation, les notes de version et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store. Aucun package d'installation hors ligne ni code source destiné aux utilisateurs finaux n'est fourni.
+
+---
+
+## Politique de Confidentialité
+
+Consultez la [Politique de Confidentialité](../privacy-policy.html) complète — les fonctions gratuites fonctionnent entièrement hors ligne, sans aucune requête réseau.
 
 ---
 
