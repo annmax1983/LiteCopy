@@ -18,7 +18,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 | 🔒 **Procesamiento local** | `activeTab` + `scripting` + `storage` ejecutan el desbloqueo; el acceso a sitios solo se usa para inyectarlo en las páginas que actives |
 | ⚡ **Ligera** | Sin frameworks, sin dependencias en tiempo de ejecución |
 | 🌍 **6 idiomas** | Inglés, chino, español, alemán, japonés y francés |
-| 🚫 **Sin rastreo** | Sin analíticas, sin telemetría. El nivel gratuito no envía ningún dato; la activación Premium verifica solo un ID de dispositivo + tu clave contra api.annmax1983.com |
+| 🚫 **Sin rastreo** | Sin analíticas, sin telemetría. El nivel gratuito no envía ningún dato; la activación Premium verifica solo un ID de instalación + tu clave contra api.annmax1983.com |
 | 🎯 **Interruptor simple** | Abre el popup y pulsa Activar/Desactivar — indicador claro de estado ON/OFF |
 
 ---
@@ -106,7 +106,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 - ✅ **Nivel gratuito: cero solicitudes de red** — Todo el procesamiento ocurre localmente; no se envía nada a menos que actives Premium
 - ✅ **Permisos concretos** — `activeTab` + `scripting` + `storage` ejecutan el desbloqueo, más el acceso a sitios usado únicamente para inyectarlo en las páginas que actives, y el host de la API de licencias
 - ✅ **La memoria de sitios se queda en tu dispositivo** — Activar LiteCopy en un sitio guarda ese dominio en `chrome.storage.local` para que las visitas posteriores se activen solas. La lista nunca se sube ni se comparte, y la entrada se elimina cuando desactivas LiteCopy en ese sitio
-- ✅ **Solo verificación de licencia** — Si activas una licencia Premium, un ID de dispositivo mínimo y tu clave de licencia se envían a `api.annmax1983.com` para verificación. No se envían datos si no activas una licencia.
+- ✅ **Solo verificación de licencia** — Si activas una licencia Premium, un ID de instalación mínimo y tu clave de licencia se envían a `api.annmax1983.com` para verificación. No se envían datos si no activas una licencia.
 
 ---
 

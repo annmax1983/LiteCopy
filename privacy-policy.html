@@ -55,7 +55,7 @@
     <p class="updated">LiteCopy · <span data-i18n="updated">Last updated: July 2026</span></p>
 
     <div class="highlight">
-      <strong>TL;DR:</strong> <span data-i18n="tldr">All free features work entirely offline — zero network requests. The only network communication is optional Premium license activation: when you enter a license key, a minimal device identifier is sent to the license server for verification. If you never activate a license, the extension never connects to the internet.</span>
+      <strong>TL;DR:</strong> <span data-i18n="tldr">All free features work entirely offline — zero network requests. The only network communication is optional Premium license activation: when you enter a license key, a minimal install identifier is sent to the license server for verification. If you never activate a license, the extension never connects to the internet.</span>
     </div>
 
     <h2 data-i18n="s1Title">1. Data Collection</h2>
@@ -74,7 +74,7 @@
     <p data-i18n="s3Text">LiteCopy requests <strong>activeTab</strong>, <strong>scripting</strong> and <strong>storage</strong> to inject the unlock script when you turn it on and to keep your daily counter, license status and remembered sites on your device. Site access is required so that sites you have enabled can be re-unlocked automatically on your next visit; no page content is ever read or transmitted.</p>
 
     <h2 data-i18n="s4Title">4. Third-Party Services</h2>
-    <p data-i18n="s4Text"><strong>License Verification (Premium):</strong> If you activate a premium license, LiteCopy connects to a license verification server at <code>api.annmax1983.com</code> to validate your key via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> (payment processor). The request includes: license key, device fingerprint ID, plugin identifier, and browser metadata (version, language, timezone). Creem processes this data per <a href="https://creem.io/privacy" target="_blank" rel="noopener">their privacy policy</a>. If you never activate a license, the extension makes zero network requests.</p>
+    <p data-i18n="s4Text"><strong>License Verification (Premium):</strong> If you activate a premium license, LiteCopy connects to a license verification server at <code>api.annmax1983.com</code> to validate your key via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> (payment processor). The request includes: license key, a random install identifier, plugin identifier, and browser metadata (version, language, timezone). Creem processes this data per <a href="https://creem.io/privacy" target="_blank" rel="noopener">their privacy policy</a>. If you never activate a license, the extension makes zero network requests.</p>
 
     <h2 data-i18n="s5Title">5. Data Sharing</h2>
     <p data-i18n="s5Text">We do not share, sell, rent, or trade any data with third parties because we do not collect any data.</p>
@@ -96,7 +96,7 @@
       zh: {
         title: '隐私政策',
         updated: '最后更新：2026年7月',
-        tldr: '所有免费功能完全离线工作——零网络请求。唯一的网络通信是可选的高级版许可证激活：当您输入许可证密钥时，会将最小化的设备标识符发送至许可证服务器进行验证。如果您从未激活许可证，扩展不会连接互联网。',
+        tldr: '所有免费功能完全离线工作——零网络请求。唯一的网络通信是可选的高级版许可证激活：当您输入许可证密钥时，会将最小化的安装标识符发送至许可证服务器进行验证。如果您从未激活许可证，扩展不会连接互联网。',
         s1Title: '1. 数据收集',
         s1Text: 'LiteCopy <strong>不</strong>收集任何个人信息、浏览数据或使用分析。我们不使用 Cookie、追踪或遥测。',
         s2Title: '2. 工作原理',
@@ -108,7 +108,7 @@
         s3Title: '3. 权限',
         s3Text: 'LiteCopy 申请 <strong>activeTab</strong>、<strong>scripting</strong> 和 <strong>storage</strong> 权限，用于在您开启时注入解锁脚本，并在本地保存每日用量计数、许可证状态和已记住的站点。站点访问权限用于让您启用过的网站在下次访问时自动解锁；不会读取或上传任何页面内容。',
         s4Title: '4. 第三方服务',
-        s4Text: '<strong>许可证验证（高级版）：</strong>如果您激活了高级版许可证，LiteCopy 将通过 <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>（支付处理商）连接到 <code>api.annmax1983.com</code> 验证您的密钥。请求包含：许可证密钥、设备指纹 ID、插件标识和浏览器元数据。如果您从未激活许可证，扩展不会发起任何网络请求。',
+        s4Text: '<strong>许可证验证（高级版）：</strong>如果您激活了高级版许可证，LiteCopy 将通过 <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>（支付处理商）连接到 <code>api.annmax1983.com</code> 验证您的密钥。请求包含：许可证密钥、随机安装标识、插件标识和浏览器元数据。如果您从未激活许可证，扩展不会发起任何网络请求。 授权服务器会记录这些请求的 IP 地址，仅用于限速与防滥用，不用于画像或广告，也不会共享给第三方。',
         s5Title: '5. 数据共享',
         s5Text: '我们不会与第三方共享、出售、出租或交易任何数据，因为我们不收集任何数据。',
         s6Title: '6. 变更',
@@ -120,7 +120,7 @@
       en: {
         title: 'Privacy Policy',
         updated: 'Last updated: July 2026',
-        tldr: 'All free features work entirely offline — zero network requests. The only network communication is optional Premium license activation: when you enter a license key, a minimal device identifier is sent to the license server for verification. If you never activate a license, the extension never connects to the internet.',
+        tldr: 'All free features work entirely offline — zero network requests. The only network communication is optional Premium license activation: when you enter a license key, a minimal install identifier is sent to the license server for verification. If you never activate a license, the extension never connects to the internet.',
         s1Title: '1. Data Collection',
         s1Text: 'LiteCopy does <strong>not</strong> collect any personal information, browsing data, or usage analytics. We do not use cookies, tracking, or telemetry of any kind.',
         s2Title: '2. How It Works',
@@ -132,7 +132,7 @@
         s3Title: '3. Permissions',
         s3Text: 'LiteCopy requests <strong>activeTab</strong>, <strong>scripting</strong> and <strong>storage</strong> to inject the unlock script when you turn it on and to keep your daily counter, license status and remembered sites on your device. Site access is required so that sites you have enabled can be re-unlocked automatically on your next visit; no page content is ever read or transmitted.',
         s4Title: '4. Third-Party Services',
-        s4Text: '<strong>License Verification (Premium):</strong> If you activate a premium license, LiteCopy connects to <code>api.annmax1983.com</code> via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> (payment processor). The request includes: license key, device fingerprint ID, plugin identifier, and browser metadata. If you never activate a license, the extension makes zero network requests.',
+        s4Text: '<strong>License Verification (Premium):</strong> If you activate a premium license, LiteCopy connects to <code>api.annmax1983.com</code> via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> (payment processor). The request includes: license key, a random install identifier, plugin identifier, and browser metadata. If you never activate a license, the extension makes zero network requests. Our license server records the IP address of these requests solely for rate limiting and abuse prevention — never for profiling, advertising, or sharing with third parties.',
         s5Title: '5. Data Sharing',
         s5Text: 'We do not share, sell, rent, or trade any data with third parties because we do not collect any data.',
         s6Title: '6. Changes',
@@ -156,7 +156,7 @@
         s3Title: '3. Permisos',
         s3Text: 'LiteCopy solicita <strong>activeTab</strong>, <strong>scripting</strong> y <strong>storage</strong> para inyectar el script de desbloqueo cuando lo activas y para guardar en tu dispositivo el contador diario, el estado de la licencia y los sitios recordados. El acceso a sitios es necesario para volver a desbloquear automáticamente los sitios que has activado; nunca se lee ni se envía el contenido de las páginas.',
         s4Title: '4. Servicios de Terceros',
-        s4Text: '<strong>Verificación de licencia (Premium):</strong> Si activa una licencia premium, LiteCopy se conecta a <code>api.annmax1983.com</code> vía <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>. La solicitud incluye: clave de licencia, ID de dispositivo, identificador del plugin y metadatos del navegador. Si nunca activa una licencia, no se realizan solicitudes de red.',
+        s4Text: '<strong>Verificación de licencia (Premium):</strong> Si activa una licencia premium, LiteCopy se conecta a <code>api.annmax1983.com</code> vía <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>. La solicitud incluye: clave de licencia, un identificador de instalación aleatorio, identificador del plugin y metadatos del navegador. Si nunca activa una licencia, no se realizan solicitudes de red. Nuestro servidor de licencias registra la dirección IP de estas solicitudes únicamente para limitar la tasa de peticiones y evitar abusos; nunca para elaborar perfiles, publicidad ni compartirla con terceros.',
         s5Title: '5. Compartir Datos',
         s5Text: 'No compartimos, vendemos ni intercambiamos datos.',
         s6Title: '6. Cambios',
@@ -180,7 +180,7 @@
         s3Title: '3. Berechtigungen',
         s3Text: 'LiteCopy benötigt <strong>activeTab</strong>, <strong>scripting</strong> und <strong>storage</strong>, um das Skript beim Aktivieren einzufügen und um Tageszähler, Lizenzstatus und gemerkte Seiten lokal zu speichern. Der Website-Zugriff ist nötig, damit aktivierte Seiten beim nächsten Besuch automatisch entsperrt werden; Seiteninhalte werden nie gelesen oder übertragen.',
         s4Title: '4. Drittanbieter',
-        s4Text: '<strong>Lizenzverifizierung (Premium):</strong> Bei aktivierter Premium-Lizenz verbindet sich LiteCopy über <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> mit <code>api.annmax1983.com</code>. Die Anfrage enthält: Lizenzschlüssel, Geräte-ID, Plugin-Kennung und Browser-Metadaten. Ohne Lizenz tätigt die Erweiterung keine Netzwerkanfragen.',
+        s4Text: '<strong>Lizenzverifizierung (Premium):</strong> Bei aktivierter Premium-Lizenz verbindet sich LiteCopy über <a href="https://creem.io" target="_blank" rel="noopener">Creem</a> mit <code>api.annmax1983.com</code>. Die Anfrage enthält: Lizenzschlüssel, eine zufällige Installationskennung, Plugin-Kennung und Browser-Metadaten. Ohne Lizenz tätigt die Erweiterung keine Netzwerkanfragen. Unser Lizenzserver protokolliert die IP-Adresse dieser Anfragen ausschließlich zur Ratenbegrenzung und Missbrauchsabwehr – niemals für Profiling, Werbung oder Weitergabe an Dritte.',
         s5Title: '5. Datenweitergabe',
         s5Text: 'Wir geben keine Daten weiter, verkaufen oder tauschen sie.',
         s6Title: '6. Änderungen',
@@ -192,7 +192,7 @@
       ja: {
         title: 'プライバシーポリシー',
         updated: '最終更新：2026年7月',
-        tldr: 'すべての無料機能は完全オフラインで動作——ネットワークリクエストゼロ。唯一のネットワーク通信はオプションのプレミアムライセンス有効化です。ライセンスキーを入力すると、最小限のデバイス識別子が検証サーバーに送信されます。ライセンスを有効化しない場合、拡張機能はインターネットに接続しません。',
+        tldr: 'すべての無料機能は完全オフラインで動作——ネットワークリクエストゼロ。唯一のネットワーク通信はオプションのプレミアムライセンス有効化です。ライセンスキーを入力すると、最小限のインストール識別子が検証サーバーに送信されます。ライセンスを有効化しない場合、拡張機能はインターネットに接続しません。',
         s1Title: '1. データ収集',
         s1Text: 'LiteCopyは個人情報、閲覧データ、使用分析を<strong>収集しません</strong>。',
         s2Title: '2. 仕組み',
@@ -204,7 +204,7 @@
         s3Title: '3. 権限',
         s3Text: 'LiteCopyは、有効化時のスクリプト注入と、1日のカウンター・ライセンス状態・記憶したサイトのローカル保存のために<strong>activeTab</strong>、<strong>scripting</strong>、<strong>storage</strong>権限を要求します。サイトアクセス権限は、有効化したサイトを次回訪問時に自動で解除するために必要です。ページの内容を読み取ったり送信したりすることはありません。',
         s4Title: '4. サードパーティサービス',
-        s4Text: '<strong>ライセンス検証（プレミアム）：</strong>プレミアムライセンスを有効化すると、<a href="https://creem.io" target="_blank" rel="noopener">Creem</a>（決済処理業者）を通じて<code>api.annmax1983.com</code>に接続しキーを検証します。リクエストには：ライセンスキー、デバイスフィンガープリントID、プラグイン識別子、ブラウザメタデータが含まれます。ライセンスを有効化しない場合、拡張機能はネットワークリクエストを行いません。',
+        s4Text: '<strong>ライセンス検証（プレミアム）：</strong>プレミアムライセンスを有効化すると、<a href="https://creem.io" target="_blank" rel="noopener">Creem</a>（決済処理業者）を通じて<code>api.annmax1983.com</code>に接続しキーを検証します。リクエストには：ライセンスキー、ランダムなインストール識別子、プラグイン識別子、ブラウザメタデータが含まれます。ライセンスを有効化しない場合、拡張機能はネットワークリクエストを行いません。 ライセンスサーバーはこれらのリクエストの IP アドレスを、レート制限と不正利用防止のみを目的として記録します。プロファイリング、広告、第三者提供には一切使用しません。',
         s5Title: '5. データ共有',
         s5Text: 'データを共有、販売、交換することはありません。',
         s6Title: '6. 変更',
@@ -228,7 +228,7 @@
         s3Title: '3. Permissions',
         s3Text: 'LiteCopy demande <strong>activeTab</strong>, <strong>scripting</strong> et <strong>storage</strong> pour injecter le script d\'activation et conserver sur votre appareil le compteur quotidien, le statut de licence et les sites mémorisés. L\'accès aux sites est nécessaire pour réactiver automatiquement les sites que vous avez activés ; aucun contenu de page n\'est lu ni transmis.',
         s4Title: '4. Services Tiers',
-        s4Text: '<strong>Vérification de licence (Premium) :</strong> Si vous activez une licence premium, LiteCopy se connecte à <code>api.annmax1983.com</code> via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>. La requête comprend : clé de licence, ID d\'appareil, identifiant du plugin et métadonnées du navigateur. Sans licence, aucune requête réseau n\'est effectuée.',
+        s4Text: '<strong>Vérification de licence (Premium) :</strong> Si vous activez une licence premium, LiteCopy se connecte à <code>api.annmax1983.com</code> via <a href="https://creem.io" target="_blank" rel="noopener">Creem</a>. La requête comprend : clé de licence, identifiant d\'installation aléatoire, identifiant du plugin et métadonnées du navigateur. Sans licence, aucune requête réseau n\'est effectuée. Notre serveur de licences enregistre l\'adresse IP de ces requêtes uniquement pour limiter le débit et prévenir les abus — jamais pour du profilage, de la publicité ou un partage avec des tiers.',
         s5Title: '5. Partage de Données',
         s5Text: 'Nous ne partageons, vendons ni échangeons de données.',
         s6Title: '6. Modifications',

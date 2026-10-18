@@ -18,7 +18,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | 🔒 **Nur lokale Verarbeitung** | `activeTab` + `scripting` + `storage` führen das Entsperren aus; der Website-Zugriff dient nur dem Einfügen auf Seiten, die du aktivierst |
 | ⚡ **Leichtgewichtig** | Keine Frameworks, keine Laufzeitabhängigkeiten |
 | 🌍 **6 Sprachen** | Englisch, Chinesisch, Spanisch, Deutsch, Japanisch, Französisch |
-| 🚫 **Kein Tracking** | Keine Analytik, keine Telemetrie. Kostenlose Stufe sendet null Daten; Premium-Aktivierung verifiziert nur eine Geräte-ID + deinen Schlüssel gegen api.annmax1983.com |
+| 🚫 **Kein Tracking** | Keine Analytik, keine Telemetrie. Kostenlose Stufe sendet null Daten; Premium-Aktivierung verifiziert nur eine Installations-ID + deinen Schlüssel gegen api.annmax1983.com |
 | 🎯 **Einfacher Schalter** | Popup öffnen und Ein/Aus drücken — klarer Zustandsindikator |
 
 ---
@@ -106,7 +106,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 - ✅ **Kostenlose Stufe: null Netzwerk-Anfragen** — Alles passiert lokal; nichts wird gesendet, es sei denn, du aktivierst Premium
 - ✅ **Gezielte Berechtigungen** — `activeTab` + `scripting` + `storage` führen das Entsperren aus, dazu Website-Zugriff, der ausschließlich dem Einfügen auf aktivierten Seiten dient, und der Lizenz-API-Host
 - ✅ **Seiten-Speicher bleibt auf deinem Gerät** — Wird LiteCopy auf einer Seite aktiviert, wird die Domain in `chrome.storage.local` gemerkt, damit spätere Besuche automatisch aktiviert werden. Die Liste wird nie hochgeladen oder geteilt, und der Eintrag wird entfernt, sobald du LiteCopy für diese Seite deaktivierst
-- ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Premium-Lizenz wird eine minimale Geräte-ID und dein Lizenzschlüssel zur Verifizierung an `api.annmax1983.com` gesendet. Ohne Lizenzaktivierung werden keine Daten gesendet.
+- ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Premium-Lizenz wird eine minimale Installations-ID und dein Lizenzschlüssel zur Verifizierung an `api.annmax1983.com` gesendet. Ohne Lizenzaktivierung werden keine Daten gesendet.
 
 ---
 

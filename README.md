@@ -18,7 +18,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | 🔒 **Local-Only Processing** | `activeTab` + `scripting` + `storage` run the unlock; site access is used only to inject it on the pages you enable |
 | ⚡ **Lightweight** | No frameworks, no runtime dependencies |
 | 🌍 **6 Languages** | English, Chinese, Spanish, German, Japanese, French |
-| 🚫 **No Tracking** | No analytics, no telemetry. Free tier sends zero data; Premium activation verifies only a device ID + your key against api.annmax1983.com |
+| 🚫 **No Tracking** | No analytics, no telemetry. Free tier sends zero data; Premium activation verifies only an install ID + your key against api.annmax1983.com |
 | 🎯 **Simple Toggle** | Open the popup and hit Enable/Disable — clear ON/OFF state indicator |
 
 ---
@@ -106,7 +106,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 - ✅ **Free tier: zero network requests** — All processing happens locally; nothing is sent unless you activate Premium
 - ✅ **Focused permissions** — `activeTab` + `scripting` + `storage` run the unlock, plus site access used solely to inject it on the pages you enable, and the license API host
 - ✅ **Site memory stays on your device** — Enabling LiteCopy on a site records that domain in `chrome.storage.local` so return visits auto-enable. The list is never uploaded or shared, and the entry is removed when you turn LiteCopy off for that site
-- ✅ **License verification only** — If you activate a Premium license, a minimal device ID and your license key are sent to `api.annmax1983.com` for verification. No data is sent if you don't activate a license.
+- ✅ **License verification only** — If you activate a Premium license, a minimal install ID and your license key are sent to `api.annmax1983.com` for verification. No data is sent if you don't activate a license.
 
 ---
 

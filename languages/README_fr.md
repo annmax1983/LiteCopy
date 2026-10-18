@@ -18,7 +18,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 | 🔒 **Traitement 100 % local** | `activeTab` + `scripting` + `storage` exécutent le déblocage ; l'accès aux sites ne sert qu'à l'injecter sur les pages que vous activez |
 | ⚡ **Léger** | Pas de frameworks, pas de dépendances d'exécution |
 | 🌍 **6 langues** | English, 中文, Español, Deutsch, 日本語, Français |
-| 🚫 **Pas de suivi** | Pas d'analytics, pas de télémétrie. Le niveau gratuit n'envoie aucune donnée ; l'activation Premium vérifie uniquement un identifiant d'appareil + votre clé sur api.annmax1983.com |
+| 🚫 **Pas de suivi** | Pas d'analytics, pas de télémétrie. Le niveau gratuit n'envoie aucune donnée ; l'activation Premium vérifie uniquement un identifiant d'installation + votre clé sur api.annmax1983.com |
 | 🎯 **Interrupteur simple** | Ouvrez le popup et appuyez sur Activer/Désactiver — indicateur d'état ON/OFF clair |
 
 ---
@@ -106,7 +106,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 - ✅ **Niveau gratuit : zéro requête réseau** — Tout le traitement se fait en local ; rien n'est envoyé tant que vous n'activez pas le Premium
 - ✅ **Permissions ciblées** — `activeTab` + `scripting` + `storage` exécutent le déblocage, plus l'accès aux sites utilisé uniquement pour l'injecter sur les pages que vous activez, et l'hôte de l'API de licence
 - ✅ **La mémoire des sites reste sur votre appareil** — Activer LiteCopy sur un site enregistre ce domaine dans `chrome.storage.local` pour que les visites suivantes s'activent automatiquement. Cette liste n'est jamais envoyée ni partagée, et l'entrée est supprimée lorsque vous désactivez LiteCopy sur ce site
-- ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, un identifiant d'appareil minimal et votre clé de licence sont envoyés à `api.annmax1983.com` pour vérification. Aucune donnée n'est envoyée si vous n'activez pas de licence.
+- ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, un identifiant d'installation minimal et votre clé de licence sont envoyés à `api.annmax1983.com` pour vérification. Aucune donnée n'est envoyée si vous n'activez pas de licence.
 
 ---
 
