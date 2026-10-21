@@ -4,7 +4,7 @@
 
 Eine schlanke Browser-Erweiterung, die native Textauswahl, Rechtsklick-Menü und Kopier-Tastenkürzel auf jeder Website wiederherstellt.
 
-> Chromium-basiert · Manifest V3 · Nur lokale Verarbeitung · Kostenlose + Premium-Stufen
+> Chromium-basiert · Manifest V3 · Kostenlos unbegrenzt kopieren · Premium: Website-Regeln geräteübergreifend
 
 ---
 
@@ -15,17 +15,19 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | Vorteil | Details |
 |---------|---------|
 | 🔓 **Ein-Klick-Aktivierung** | Native Textauswahl sofort wiederherstellen — kein Seiten-Neuladen nötig |
-| 🔒 **Nur lokale Verarbeitung** | `activeTab` + `scripting` + `storage` führen das Entsperren aus; der Website-Zugriff dient nur dem Einfügen auf Seiten, die du aktivierst |
+| ♾️ **Kostenlos & unbegrenzt** | Kopieren, Auswählen und Rechtsklick so oft wie gewünscht — kein Tageslimit, kein Zähler |
+| 🔄 **Website-Regeln geräteübergreifend** | Premium synchronisiert die aktivierten Websites über die integrierte Kontosynchronisierung des Browsers (Chrome Sync / Edge Sync) |
+| 🔒 **Lokal konzipiert** | Das Entsperren läuft lokal mit `activeTab` + `scripting`; der Website-Zugriff dient nur den Seiten, die du aktivierst |
 | ⚡ **Leichtgewichtig** | Keine Frameworks, keine Laufzeitabhängigkeiten |
 | 🌍 **6 Sprachen** | Englisch, Chinesisch, Spanisch, Deutsch, Japanisch, Französisch |
-| 🚫 **Kein Tracking** | Keine Analytik, keine Telemetrie. Kostenlose Stufe sendet null Daten; Premium-Aktivierung verifiziert nur eine Installations-ID + deinen Schlüssel gegen api.annmax1983.com |
+| 🚫 **Kein Tracking** | Keine Analytik, keine Telemetrie. Der Entwickler hat keinen Server, der deinen Verlauf oder deine Website-Liste speichert |
 | 🎯 **Einfacher Schalter** | Popup öffnen und Ein/Aus drücken — klarer Zustandsindikator |
 
 ---
 
 ## Funktionen
 
-### 🆓 Kostenlos (100 Kopien/Tag)
+### 🆓 Kostenlos — unbegrenzt
 
 | Funktion | Beschreibung |
 |----------|--------------|
@@ -38,14 +40,16 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | 💬 **Toast-Benachrichtigung** | Automatisch verschwindende Benachrichtigung zeigt Aktivierungsstatus |
 | 📋 **Seiteninfo kopieren** | Popup-Buttons zum Kopieren von Seitentitel, URL oder beidem |
 
-> **Limit der kostenlosen Stufe:** 100 Kopien pro Tag. Aktivierung ist immer kostenlos — jede Kopie, die du auf einer aktivierten Seite machst, zählt zum Tageslimit. Der Zähler setzt um Mitternacht (Ortszeit) zurück. Seiteninfo-Buttons (Titel/URL) sind immer kostenlos und zählen nicht mit.
+> Alle Funktionen oben sind kostenlos und unbegrenzt — kein Tageskontingent, kein Reset.
 
-### ⭐ Premium (Lizenz erforderlich — Unbegrenzt)
+### ⭐ Premium — Website-Regeln geräteübergreifend
 
 | Funktion | Beschreibung |
 |----------|--------------|
-| ♾️ **Unbegrenzte Kopien** | Kein Tageslimit — so viel kopieren wie gewünscht |
-| 📤 **Seiteninfo kopieren** | Titel-/URL-Schaltflächen sind immer kostenlos und zählen nicht zum Tageslimit |
+| 🔄 **Website-Regeln geräteübergreifend** | Aktiviere eine Website einmal, und die Regel folgt deinem Browserkonto — auf anderen angemeldeten Geräten wird sie automatisch aktiviert |
+| 🔐 **Synchronisierung über das Browserkonto** | Die Liste speichert dein Browser in `chrome.storage.sync`. Kein LiteCopy-Konto, keine Kopie auf einem Entwickler-Server, kein Zugriff für den Entwickler |
+| 💻 **Zugriff pro Gerät** | Website-Berechtigungen des Browsers lassen sich nicht synchronisieren. Klicke auf einem neuen Gerät bei der synchronisierten Website einmal auf Aktivieren, um den Zugriff zu erteilen — die Regel ist bereits gespeichert |
+| 🧭 **Manuelle Synchronisierung** | Mit **Jetzt synchronisieren** in den Einstellungen holst du die aktuelle Liste jederzeit aus deinem Browserkonto |
 
 > 💡 Einmaliger Kauf oder monatliches Abonnement. [Lizenz erhalten →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
@@ -89,24 +93,25 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 
 > **Hinweis:** Einige browser-seitig eingeschränkte Seiten (`chrome://`, der Chrome Web Store usw.) können nicht verändert werden. Das Popup zeigt einen Fehler an.
 
+**Website-Regeln und Synchronisierung (Premium):**
+- Aktiviere eine Website auf einem Gerät — die Regel wird dem synchronisierten Speicher deines Browserkontos hinzugefügt
+- Auf einem anderen Gerät mit demselben Browserkonto erscheint die Website als gespeicherte Regel; klicke einmal auf **Aktivieren**, um die Website-Berechtigung dieses Geräts zu erteilen
+- Öffne die **Einstellungen**, um die Anzahl synchronisierter Websites zu sehen, und nutze **Jetzt synchronisieren** für eine sofortige Aktualisierung
+
 **Seiteninfo kopieren:**
 - Symbol klicken → Popup öffnet sich
 - Buttons verwenden, um Seitentitel, URL oder beides zu kopieren
-
-**Nutzung prüfen:**
-- Die Nutzungsleiste oben zeigt deine tägliche Kopienanzahl
-- Kostenlose Nutzer: 100 Kopien/Tag, Reset um Mitternacht
-- Premium-Nutzer: ⭐ Unbegrenzt
 
 ---
 
 ## Datenschutz
 
 - ✅ **Keine Analytik** — Kein Tracking, keine Telemetrie
-- ✅ **Kostenlose Stufe: null Netzwerk-Anfragen** — Alles passiert lokal; nichts wird gesendet, es sei denn, du aktivierst Premium
+- ✅ **Kostenlose Funktionen: null Netzwerk-Anfragen** — Alles passiert lokal; nichts wird gesendet, es sei denn, du aktivierst Premium
 - ✅ **Gezielte Berechtigungen** — `activeTab` + `scripting` + `storage` führen das Entsperren aus, dazu Website-Zugriff, der ausschließlich dem Einfügen auf aktivierten Seiten dient, und der Lizenz-API-Host
-- ✅ **Seiten-Speicher bleibt auf deinem Gerät** — Wird LiteCopy auf einer Seite aktiviert, wird die Domain in `chrome.storage.local` gemerkt, damit spätere Besuche automatisch aktiviert werden. Die Liste wird nie hochgeladen oder geteilt, und der Eintrag wird entfernt, sobald du LiteCopy für diese Seite deaktivierst
-- ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Premium-Lizenz wird eine minimale Installations-ID und dein Lizenzschlüssel zur Verifizierung an `api.annmax1983.com` gesendet. Ohne Lizenzaktivierung werden keine Daten gesendet.
+- ✅ **Website-Liste standardmäßig lokal** — Wird LiteCopy auf einer Seite aktiviert, wird die Domain in `chrome.storage.local` gemerkt. Die Liste wird nie an den Entwickler gesendet
+- ✅ **Premium-Sync nutzt dein Browserkonto** — Mit aktiver Lizenz wird die Liste zusätzlich in `chrome.storage.sync` gespiegelt, der Kontosynchronisierung deines Browser-Anbieters. Der Entwickler hat keinen Zugriff und erhält keine Kopie. Wird die Lizenz entfernt, stoppt die Synchronisierung; lokale Regeln funktionieren weiter
+- ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Premium-Lizenz wird eine minimale Installations-ID und dein Lizenzschlüssel zur Verifizierung an `api.annmax1983.com` gesendet. Ohne Lizenzaktivierung werden keine Daten gesendet
 
 ---
 
@@ -118,7 +123,7 @@ Dieses Tool stellt nur grundlegende browser-interne Textverarbeitungsfunktionen 
 
 ## Quellcode-Hinweis
 
-> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation, Versionshinweise und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Endbenutzer-Quellcodes bereitgestellt.
+> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Endbenutzer-Quellcodes bereitgestellt.
 
 ---
 

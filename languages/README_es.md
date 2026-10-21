@@ -4,7 +4,7 @@
 
 Una extensión ligera para el navegador que restaura la selección de texto nativa, el menú de clic derecho y los atajos de copiar en cualquier sitio web.
 
-> Basada en Chromium · Manifest V3 · Procesamiento 100 % local · Niveles gratuito y Premium
+> Basada en Chromium · Manifest V3 · Copias gratuitas ilimitadas · Reglas de sitios entre dispositivos en Premium
 
 ---
 
@@ -15,17 +15,19 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 | Ventaja | Detalle |
 |---------|--------|
 | 🔓 **Activar con un clic** | Restaura la selección de texto nativa al instante — sin necesidad de recargar la página |
-| 🔒 **Procesamiento local** | `activeTab` + `scripting` + `storage` ejecutan el desbloqueo; el acceso a sitios solo se usa para inyectarlo en las páginas que actives |
+| ♾️ **Gratis e ilimitado** | Copia, selecciona y usa el clic derecho todo lo que quieras — sin límite diario ni contador |
+| 🔄 **Reglas de sitios entre dispositivos** | Premium sincroniza los sitios que activas mediante la cuenta integrada del navegador (Chrome Sync / Edge Sync) |
+| 🔒 **Local por diseño** | El desbloqueo se ejecuta localmente con `activeTab` + `scripting`; el acceso a sitios solo se usa en las páginas que activas |
 | ⚡ **Ligera** | Sin frameworks, sin dependencias en tiempo de ejecución |
 | 🌍 **6 idiomas** | Inglés, chino, español, alemán, japonés y francés |
-| 🚫 **Sin rastreo** | Sin analíticas, sin telemetría. El nivel gratuito no envía ningún dato; la activación Premium verifica solo un ID de instalación + tu clave contra api.annmax1983.com |
+| 🚫 **Sin rastreo** | Sin analíticas ni telemetría. El desarrollador no tiene un servidor que guarde tu historial ni tu lista de sitios |
 | 🎯 **Interruptor simple** | Abre el popup y pulsa Activar/Desactivar — indicador claro de estado ON/OFF |
 
 ---
 
 ## Funcionalidades
 
-### 🆓 Gratis (100 copias/día)
+### 🆓 Gratis — ilimitado
 
 | Funcionalidad | Descripción |
 |---------|-------------|
@@ -38,14 +40,16 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 | 💬 **Notificación emergente** | Notificación auto-descartable que muestra el estado de activación |
 | 📋 **Copiar información de la página** | Botones en el popup para copiar el título de la página, la URL o ambos |
 
-> **Límite del nivel gratuito:** 100 copias por día. La activación siempre es gratuita — cada copia que hagas en una página activada cuenta para el límite diario. El contador se reinicia a medianoche (hora local). Los botones de Copiar información de la página (título/URL) son siempre gratuitos y no cuentan.
+> Todas las funciones anteriores son gratuitas, sin límite de copias ni reinicio diario.
 
-### ⭐ Premium (Requiere licencia — Ilimitado)
+### ⭐ Premium — reglas de sitios entre dispositivos
 
 | Funcionalidad | Descripción |
 |---------|-------------|
-| ♾️ **Copias ilimitadas** | Sin límite diario — copia todo lo que quieras |
-| 📤 **Copiar información de la página** | Los botones de título / URL son siempre gratuitos y no cuentan para el límite diario |
+| 🔄 **Reglas de sitios entre dispositivos** | Activa un sitio una vez y la regla sigue tu cuenta del navegador, por lo que se activa sola en tus otros dispositivos con la misma cuenta |
+| 🔐 **Sincronización con la cuenta del navegador** | La lista la guarda tu navegador en `chrome.storage.sync`. Sin cuenta de LiteCopy, sin copia en un servidor del desarrollador y sin acceso para el desarrollador |
+| 💻 **Acceso por dispositivo** | Los permisos de sitio del navegador no se sincronizan. En un dispositivo nuevo, pulsa Activar una vez en el sitio sincronizado para conceder acceso; la regla ya está guardada |
+| 🧭 **Sincronización manual** | El botón **Sincronizar ahora** de Configuración descarga la lista más reciente de tu cuenta del navegador cuando quieras |
 
 > 💡 Compra única o suscripción mensual. [Obtener licencia →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
@@ -89,24 +93,25 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 
 > **Nota:** Algunas páginas restringidas por el navegador (`chrome://`, Chrome Web Store, etc.) no pueden modificarse. El popup muestra un error.
 
+**Reglas de sitios y sincronización (Premium):**
+- Activa un sitio en un dispositivo — la regla se añade al almacenamiento sincronizado de tu cuenta del navegador
+- En otro dispositivo con la misma cuenta del navegador, el sitio aparece como regla guardada; pulsa **Activar** una vez para conceder el permiso de sitio de ese dispositivo
+- Abre **Configuración** para ver cuántos sitios están sincronizados y usa **Sincronizar ahora** si quieres actualizar de inmediato
+
 **Copiar información de la página:**
 - Haz clic en el icono → se abre el popup
 - Usa los botones para copiar el título de la página, la URL o ambos
-
-**Consultar uso:**
-- La barra de uso en la parte superior muestra tu conteo de copias diarias
-- Usuarios gratuitos: 100 copias/día, se reinicia a medianoche
-- Usuarios Premium: ⭐ Ilimitado
 
 ---
 
 ## Privacidad
 
 - ✅ **Sin analíticas** — Sin rastreo, sin telemetría
-- ✅ **Nivel gratuito: cero solicitudes de red** — Todo el procesamiento ocurre localmente; no se envía nada a menos que actives Premium
+- ✅ **Funciones gratuitas: cero solicitudes de red** — Todo el procesamiento ocurre localmente; no se envía nada a menos que actives Premium
 - ✅ **Permisos concretos** — `activeTab` + `scripting` + `storage` ejecutan el desbloqueo, más el acceso a sitios usado únicamente para inyectarlo en las páginas que actives, y el host de la API de licencias
-- ✅ **La memoria de sitios se queda en tu dispositivo** — Activar LiteCopy en un sitio guarda ese dominio en `chrome.storage.local` para que las visitas posteriores se activen solas. La lista nunca se sube ni se comparte, y la entrada se elimina cuando desactivas LiteCopy en ese sitio
-- ✅ **Solo verificación de licencia** — Si activas una licencia Premium, un ID de instalación mínimo y tu clave de licencia se envían a `api.annmax1983.com` para verificación. No se envían datos si no activas una licencia.
+- ✅ **La lista de sitios es local por defecto** — Activar LiteCopy guarda ese dominio en `chrome.storage.local`. La lista nunca se envía al desarrollador
+- ✅ **La sincronización Premium usa tu cuenta del navegador** — Con una licencia activa, la lista también se refleja en `chrome.storage.sync`, la sincronización de cuenta de tu proveedor de navegador. El desarrollador no tiene acceso ni recibe copia. La sincronización se detiene si eliminas la licencia; las reglas locales siguen funcionando
+- ✅ **Solo verificación de licencia** — Al activar una licencia Premium se envían un ID de instalación mínimo y tu clave a `api.annmax1983.com` para verificarlos. No se envían datos si no activas una licencia
 
 ---
 
@@ -118,7 +123,7 @@ Esta herramienta solo restaura las capacidades básicas de operación de texto i
 
 ## Aviso sobre el código fuente
 
-> ⚠️ **Este repositorio no publica código fuente.** Contiene únicamente documentación de uso, notas de lanzamiento y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store. No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
+> ⚠️ **Este repositorio no publica código fuente.** Contiene únicamente documentación de uso y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store. No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
 
 ---
 

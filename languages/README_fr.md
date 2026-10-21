@@ -4,7 +4,7 @@
 
 Une extension légère qui restaure la sélection de texte native, le menu contextuel et les raccourcis de copie sur n'importe quel site web.
 
-> Chromium · Manifest V3 · Traitement 100 % local · Niveaux gratuit + Premium
+> Chromium · Manifest V3 · Copies gratuites illimitées · Règles de sites entre appareils en Premium
 
 ---
 
@@ -15,17 +15,19 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 | Avantage | Détail |
 |-----------|--------|
 | 🔓 **Activation en un clic** | Restaure la sélection de texte native instantanément — aucun rechargement de page nécessaire |
-| 🔒 **Traitement 100 % local** | `activeTab` + `scripting` + `storage` exécutent le déblocage ; l'accès aux sites ne sert qu'à l'injecter sur les pages que vous activez |
+| ♾️ **Gratuit et illimité** | Copiez, sélectionnez et utilisez le clic droit autant que vous voulez — sans limite quotidienne ni compteur |
+| 🔄 **Règles de sites entre appareils** | Premium synchronise les sites que vous activez via le compte intégré du navigateur (Chrome Sync / Edge Sync) |
+| 🔒 **Local par conception** | Le déblocage s'exécute localement avec `activeTab` + `scripting` ; l'accès aux sites ne sert qu'aux pages que vous activez |
 | ⚡ **Léger** | Pas de frameworks, pas de dépendances d'exécution |
 | 🌍 **6 langues** | English, 中文, Español, Deutsch, 日本語, Français |
-| 🚫 **Pas de suivi** | Pas d'analytics, pas de télémétrie. Le niveau gratuit n'envoie aucune donnée ; l'activation Premium vérifie uniquement un identifiant d'installation + votre clé sur api.annmax1983.com |
+| 🚫 **Pas de suivi** | Pas d'analytics, pas de télémétrie. Le développeur n'a aucun serveur stockant votre historique ou votre liste de sites |
 | 🎯 **Interrupteur simple** | Ouvrez le popup et appuyez sur Activer/Désactiver — indicateur d'état ON/OFF clair |
 
 ---
 
 ## Fonctionnalités
 
-### 🆓 Gratuit (100 copies/jour)
+### 🆓 Gratuit — illimité
 
 | Fonctionnalité | Description |
 |---------|-------------|
@@ -38,14 +40,16 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 | 💬 **Notification toast** | Notification auto-fermante affichant le statut d'activation |
 | 📋 **Copier les infos de la page** | Boutons du popup pour copier le titre de la page, l'URL, ou les deux |
 
-> **Limite du niveau gratuit :** 100 copies par jour. L'activation est toujours gratuite — chaque copie effectuée sur une page activée compte dans la limite quotidienne. Le compteur se réinitialise à minuit (heure locale). Les boutons Copier les infos (titre/URL) sont toujours gratuits et ne comptent pas.
+> Toutes les fonctions ci-dessus sont gratuites et illimitées — aucun quota quotidien, aucun compteur.
 
-### ⭐ Premium (licence requise — illimité)
+### ⭐ Premium — règles de sites entre appareils
 
 | Fonctionnalité | Description |
 |---------|-------------|
-| ♾️ **Copies illimitées** | Pas de limite quotidienne — copiez autant que vous voulez |
-| 📤 **Copier les infos de la page** | Les boutons titre / URL sont toujours gratuits et ne comptent pas dans la limite quotidienne |
+| 🔄 **Règles de sites entre appareils** | Activez un site une fois et la règle suit votre compte navigateur : elle sera réactivée automatiquement sur vos autres appareils connectés au même compte |
+| 🔐 **Synchronisation via le compte navigateur** | La liste est stockée par votre navigateur dans `chrome.storage.sync`. Aucun compte LiteCopy, aucune copie sur un serveur développeur, et le développeur n'y a pas accès |
+| 💻 **Accès par appareil** | Les autorisations de site du navigateur ne peuvent pas être synchronisées. Sur un nouvel appareil, cliquez une fois sur **Activer** pour le site synchronisé afin d'accorder l'accès — la règle est déjà enregistrée |
+| 🧭 **Synchronisation manuelle** | Le bouton **Synchroniser** des paramètres récupère la liste la plus récente depuis votre compte navigateur à tout moment |
 
 > 💡 Achat unique ou abonnement mensuel. [Obtenir une licence →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
 
@@ -89,24 +93,25 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 
 > **Note :** Certaines pages restreintes par le navigateur (`chrome://`, le Chrome Web Store, etc.) ne peuvent pas être modifiées. Le popup affiche une erreur.
 
+**Règles de sites et synchronisation (Premium) :**
+- Activez un site sur un appareil — la règle est ajoutée au stockage synchronisé de votre compte navigateur
+- Sur un autre appareil connecté au même compte navigateur, le site apparaît comme règle enregistrée ; cliquez une fois sur **Activer** pour accorder l'autorisation de site de cet appareil
+- Ouvrez les **Paramètres** pour voir le nombre de sites synchronisés et utilisez **Synchroniser** pour actualiser immédiatement
+
 **Copier les infos de la page :**
 - Cliquez sur l'icône → le popup s'ouvre
 - Utilisez les boutons pour copier le titre de la page, l'URL, ou les deux
-
-**Vérifier l'utilisation :**
-- La barre d'utilisation en haut affiche votre nombre de copies du jour
-- Utilisateurs gratuits : 100 copies/jour, réinitialisation à minuit
-- Utilisateurs Premium : ⭐ Illimité
 
 ---
 
 ## Confidentialité
 
 - ✅ **Pas d'analytics** — Aucun suivi, aucune télémétrie
-- ✅ **Niveau gratuit : zéro requête réseau** — Tout le traitement se fait en local ; rien n'est envoyé tant que vous n'activez pas le Premium
+- ✅ **Fonctions gratuites : zéro requête réseau** — Tout le traitement se fait en local ; rien n'est envoyé tant que vous n'activez pas le Premium
 - ✅ **Permissions ciblées** — `activeTab` + `scripting` + `storage` exécutent le déblocage, plus l'accès aux sites utilisé uniquement pour l'injecter sur les pages que vous activez, et l'hôte de l'API de licence
-- ✅ **La mémoire des sites reste sur votre appareil** — Activer LiteCopy sur un site enregistre ce domaine dans `chrome.storage.local` pour que les visites suivantes s'activent automatiquement. Cette liste n'est jamais envoyée ni partagée, et l'entrée est supprimée lorsque vous désactivez LiteCopy sur ce site
-- ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, un identifiant d'installation minimal et votre clé de licence sont envoyés à `api.annmax1983.com` pour vérification. Aucune donnée n'est envoyée si vous n'activez pas de licence.
+- ✅ **Liste de sites locale par défaut** — Activer LiteCopy enregistre ce domaine dans `chrome.storage.local`. Cette liste n'est jamais envoyée au développeur
+- ✅ **La synchronisation Premium utilise votre compte navigateur** — Avec une licence active, la liste est aussi reflétée dans `chrome.storage.sync`, la synchronisation de compte de votre fournisseur de navigateur. Le développeur n'y a pas accès et n'en reçoit aucune copie. La synchronisation s'arrête si vous supprimez la licence ; les règles locales continuent de fonctionner
+- ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, un identifiant d'installation minimal et votre clé de licence sont envoyés à `api.annmax1983.com` pour vérification. Aucune donnée n'est envoyée si vous n'activez pas de licence
 
 ---
 
@@ -118,7 +123,7 @@ Cet outil restaure uniquement les fonctions natives de manipulation de texte du 
 
 ## Avis sur le code source
 
-> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation, les notes de version et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store. Aucun package d'installation hors ligne ni code source destiné aux utilisateurs finaux n'est fourni.
+> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store. Aucun package d'installation hors ligne ni code source destiné aux utilisateurs finaux n'est fourni.
 
 ---
 
