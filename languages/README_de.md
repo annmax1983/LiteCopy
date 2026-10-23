@@ -75,12 +75,12 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 
 ## Installation
 
-1. Öffne die Erweiterungsseite deines Browsers:
-   - **Chrome**: `chrome://extensions/`
-   - **Edge**: `edge://extensions/`
-2. Aktiviere den **Entwicklermodus** (Schalter oben rechts)
-3. Klicke auf **Entpackte Erweiterung laden** und wähle den Ordner `lite-copy`
-4. Das LiteCopy-Symbol erscheint in deiner Toolbar
+| Store | Link |
+|---|---|
+| Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
+| Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+
+> Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
 ---
 

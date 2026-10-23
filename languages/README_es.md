@@ -75,12 +75,12 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 
 ## Instalación
 
-1. Abre la página de extensiones de tu navegador:
-   - **Chrome**: `chrome://extensions/`
-   - **Edge**: `edge://extensions/`
-2. Activa el **modo de desarrollador** (interruptor arriba a la derecha)
-3. Haz clic en **Cargar descomprimida** y selecciona la carpeta `lite-copy`
-4. El icono de LiteCopy aparecerá en tu barra de herramientas
+| Tienda | Enlace |
+|---|---|
+| Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
+| Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+
+> Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 
 ---
 

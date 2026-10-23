@@ -75,12 +75,12 @@ Webサイトからテキストをコピーしようとして、選択できな�
 
 ## インストール
 
-1. ブラウザの拡張機能ページを開きます：
-   - **Chrome**: `chrome://extensions/`
-   - **Edge**: `edge://extensions/`
-2. **デベロッパーモード**を有効にします（右上のトグル）
-3. **パッケージ化されていない拡張機能を読み込む**をクリックし、`lite-copy`フォルダを選択します
-4. ツールバーにLiteCopyアイコンが表示されます
+| ストア | リンク |
+|---|---|
+| Chrome ウェブストア | [Chrome に追加](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
+| Microsoft Edge アドオン | [Edge に追加](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+
+> 上記の公式ストアからのみインストールしてください。第三者サイトの利用は避けてください。
 
 ---
 

@@ -73,14 +73,14 @@
 
 ---
 
-## 安装方法
+## 安装
 
-1. 打开浏览器扩展页面：
-   - **Chrome**：`chrome://extensions/`
-   - **Edge**：`edge://extensions/`
-2. 开启右上角的**开发者模式**
-3. 点击**加载已解压的扩展程序**，选择 `lite-copy` 文件夹
-4. 工具栏中出现 LiteCopy 图标
+| 商店 | 链接 |
+|---|---|
+| Chrome 应用商店 | [在 Chrome 中安装](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
+| Microsoft Edge 加载项 | [在 Edge 中安装](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+
+> 请只通过上方官方商店安装，避免使用第三方下载站。
 
 ---
 

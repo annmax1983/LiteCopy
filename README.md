@@ -75,12 +75,12 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 ## Installation
 
-1. Open your browser's extension page:
-   - **Chrome**: `chrome://extensions/`
-   - **Edge**: `edge://extensions/`
-2. Enable **Developer mode** (top-right toggle)
-3. Click **Load unpacked** and select the `lite-copy` folder
-4. The LiteCopy icon appears in your toolbar
+| Store | Link |
+|---|---|
+| Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
+| Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+
+> Install only from the official stores above — avoid third-party download sites.
 
 ---
 

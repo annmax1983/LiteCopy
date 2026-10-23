@@ -75,12 +75,12 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 
 ## Installation
 
-1. Ouvrez la page des extensions de votre navigateur :
-   - **Chrome** : `chrome://extensions/`
-   - **Edge** : `edge://extensions/`
-2. Activez le **mode Développeur** (bouton en haut à droite)
-3. Cliquez sur **Charger le package décompressé** et sélectionnez le dossier `lite-copy`
-4. L'icône LiteCopy apparaît dans votre barre d'outils
+| Store | Lien |
+|---|---|
+| Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
+| Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+
+> Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
 ---
 
