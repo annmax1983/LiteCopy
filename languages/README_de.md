@@ -4,7 +4,7 @@
 
 Eine schlanke Browser-Erweiterung, die native Textauswahl, Rechtsklick-Menü und Kopier-Tastenkürzel auf jeder Website wiederherstellt.
 
-> Chromium-basiert · Manifest V3 · Kostenlos unbegrenzt kopieren · Premium: Website-Regeln geräteübergreifend
+> Chrome / Edge / Firefox · Manifest V3 · Kostenlos unbegrenzt kopieren · Premium: Website-Regeln geräteübergreifend
 
 ---
 
@@ -47,7 +47,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | Funktion | Beschreibung |
 |----------|--------------|
 | 🔄 **Website-Regeln geräteübergreifend** | Aktiviere eine Website einmal, und die Regel folgt deinem Browserkonto — auf anderen angemeldeten Geräten wird sie automatisch aktiviert |
-| 🔐 **Synchronisierung über das Browserkonto** | Die Liste speichert dein Browser in `chrome.storage.sync`. Kein LiteCopy-Konto, keine Kopie auf einem Entwickler-Server, kein Zugriff für den Entwickler |
+| 🔐 **Synchronisierung über das Browserkonto** | Die Liste speichert dein Browser in `storage.sync`. Kein LiteCopy-Konto, keine Kopie auf einem Entwickler-Server, kein Zugriff für den Entwickler |
 | 💻 **Zugriff pro Gerät** | Website-Berechtigungen des Browsers lassen sich nicht synchronisieren. Klicke auf einem neuen Gerät bei der synchronisierten Website einmal auf Aktivieren, um den Zugriff zu erteilen — die Regel ist bereits gespeichert |
 | 🧭 **Manuelle Synchronisierung** | Mit **Jetzt synchronisieren** in den Einstellungen holst du die aktuelle Liste jederzeit aus deinem Browserkonto |
 
@@ -69,7 +69,10 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 |---------|--------|
 | Google Chrome | ✅ Vollständig unterstützt |
 | Microsoft Edge | ✅ Vollständig unterstützt |
+| Mozilla Firefox | ✅ Vollständig unterstützt |
 | Andere Chromium-basierte Browser | ✅ Sollte funktionieren |
+
+> **Firefox-Hinweis:** Geschützte Seiten sind `about:`-Seiten und addons.mozilla.org. Die geräteübergreifende Synchronisierung läuft über Firefox Sync (Mozilla-Konto). Die übrigen Funktionen verhalten sich wie unter Chrome / Edge.
 
 ---
 
@@ -79,6 +82,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 |---|---|
 | Chrome Web Store | [In Chrome installieren](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
 | Microsoft Edge Add-ons | [In Edge installieren](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+| Firefox-Add-ons (AMO) | 🔜 In Prüfung – Link folgt nach der Freigabe |
 
 > Installieren Sie nur über die offiziellen Stores oben – meiden Sie Download-Seiten Dritter.
 
@@ -91,7 +95,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 3. Klicke auf **Aktivieren** — Textauswahl wird sofort wiederhergestellt
 4. Zum Deaktivieren: Popup erneut öffnen und **Deaktivieren** klicken (die Seite wird neu geladen, um das ursprüngliche Verhalten wiederherzustellen)
 
-> **Hinweis:** Einige browser-seitig eingeschränkte Seiten (`chrome://`, der Chrome Web Store usw.) können nicht verändert werden. Das Popup zeigt einen Fehler an.
+> **Hinweis:** Einige browser-seitig eingeschränkte Seiten (`chrome://`, der Chrome Web Store, Microsoft Edge Add-ons und Firefox-Add-ons (AMO) usw.) können nicht verändert werden. Das Popup zeigt einen Fehler an.
 
 **Website-Regeln und Synchronisierung (Premium):**
 - Aktiviere eine Website auf einem Gerät — die Regel wird dem synchronisierten Speicher deines Browserkontos hinzugefügt
@@ -109,8 +113,8 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 - ✅ **Keine Analytik** — Kein Tracking, keine Telemetrie
 - ✅ **Kostenlose Funktionen: null Netzwerk-Anfragen** — Alles passiert lokal; nichts wird gesendet, es sei denn, du aktivierst Premium
 - ✅ **Gezielte Berechtigungen** — `activeTab` + `scripting` + `storage` führen das Entsperren aus, dazu Website-Zugriff, der ausschließlich dem Einfügen auf aktivierten Seiten dient, und der Lizenz-API-Host
-- ✅ **Website-Liste standardmäßig lokal** — Wird LiteCopy auf einer Seite aktiviert, wird die Domain in `chrome.storage.local` gemerkt. Die Liste wird nie an den Entwickler gesendet
-- ✅ **Premium-Sync nutzt dein Browserkonto** — Mit aktiver Lizenz wird die Liste zusätzlich in `chrome.storage.sync` gespiegelt, der Kontosynchronisierung deines Browser-Anbieters. Der Entwickler hat keinen Zugriff und erhält keine Kopie. Wird die Lizenz entfernt, stoppt die Synchronisierung; lokale Regeln funktionieren weiter
+- ✅ **Website-Liste standardmäßig lokal** — Wird LiteCopy auf einer Seite aktiviert, wird die Domain in `storage.local` gemerkt. Die Liste wird nie an den Entwickler gesendet
+- ✅ **Premium-Sync nutzt dein Browserkonto** — Mit aktiver Lizenz wird die Liste zusätzlich in `storage.sync` gespiegelt, der Kontosynchronisierung deines Browser-Anbieters. Der Entwickler hat keinen Zugriff und erhält keine Kopie. Wird die Lizenz entfernt, stoppt die Synchronisierung; lokale Regeln funktionieren weiter
 - ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Premium-Lizenz wird eine minimale Installations-ID und dein Lizenzschlüssel zur Verifizierung an `api.annmax1983.com` gesendet. Ohne Lizenzaktivierung werden keine Daten gesendet
 
 ---
@@ -123,7 +127,7 @@ Dieses Tool stellt nur grundlegende browser-interne Textverarbeitungsfunktionen 
 
 ## Quellcode-Hinweis
 
-> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store vertrieben. Es werden keine Offline-Installationspakete oder Endbenutzer-Quellcodes bereitgestellt.
+> ⚠️ **Dieses Repository veröffentlicht keinen Quellcode.** Es enthält nur Nutzerdokumentation und Support-Ressourcen. Die Erweiterung wird ausschließlich über den Chrome Web Store, Microsoft Edge Add-ons und Firefox-Add-ons (AMO) vertrieben. Es werden keine Offline-Installationspakete oder Endbenutzer-Quellcodes bereitgestellt.
 
 ---
 

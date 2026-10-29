@@ -4,7 +4,7 @@
 
 Une extension légère qui restaure la sélection de texte native, le menu contextuel et les raccourcis de copie sur n'importe quel site web.
 
-> Chromium · Manifest V3 · Copies gratuites illimitées · Règles de sites entre appareils en Premium
+> Chrome / Edge / Firefox · Manifest V3 · Copies gratuites illimitées · Règles de sites entre appareils en Premium
 
 ---
 
@@ -47,7 +47,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 | Fonctionnalité | Description |
 |---------|-------------|
 | 🔄 **Règles de sites entre appareils** | Activez un site une fois et la règle suit votre compte navigateur : elle sera réactivée automatiquement sur vos autres appareils connectés au même compte |
-| 🔐 **Synchronisation via le compte navigateur** | La liste est stockée par votre navigateur dans `chrome.storage.sync`. Aucun compte LiteCopy, aucune copie sur un serveur développeur, et le développeur n'y a pas accès |
+| 🔐 **Synchronisation via le compte navigateur** | La liste est stockée par votre navigateur dans `storage.sync`. Aucun compte LiteCopy, aucune copie sur un serveur développeur, et le développeur n'y a pas accès |
 | 💻 **Accès par appareil** | Les autorisations de site du navigateur ne peuvent pas être synchronisées. Sur un nouvel appareil, cliquez une fois sur **Activer** pour le site synchronisé afin d'accorder l'accès — la règle est déjà enregistrée |
 | 🧭 **Synchronisation manuelle** | Le bouton **Synchroniser** des paramètres récupère la liste la plus récente depuis votre compte navigateur à tout moment |
 
@@ -69,7 +69,10 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 |---------|--------|
 | Google Chrome | ✅ Entièrement pris en charge |
 | Microsoft Edge | ✅ Entièrement pris en charge |
+| Mozilla Firefox | ✅ Entièrement pris en charge |
 | Autres navigateurs basés sur Chromium | ✅ Devrait fonctionner |
+
+> **Note Firefox :** Les pages protégées sont les pages `about:` et addons.mozilla.org. La synchronisation entre appareils passe par Firefox Sync (compte Mozilla). Le reste des fonctions se comporte comme sous Chrome / Edge.
 
 ---
 
@@ -79,6 +82,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 |---|---|
 | Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
 | Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+| Modules complémentaires Firefox (AMO) | 🔜 En cours d’examen — le lien sera ajouté après publication |
 
 > Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
@@ -91,7 +95,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 3. Cliquez sur **Activer** — la sélection de texte est restaurée instantanément
 4. Pour désactiver, rouvrez le popup et cliquez sur **Désactiver** (la page se recharge pour restaurer le comportement original)
 
-> **Note :** Certaines pages restreintes par le navigateur (`chrome://`, le Chrome Web Store, etc.) ne peuvent pas être modifiées. Le popup affiche une erreur.
+> **Note :** Certaines pages restreintes par le navigateur (`chrome://`, le Chrome Web Store, Microsoft Edge Add-ons et Firefox Add-ons (AMO), etc.) ne peuvent pas être modifiées. Le popup affiche une erreur.
 
 **Règles de sites et synchronisation (Premium) :**
 - Activez un site sur un appareil — la règle est ajoutée au stockage synchronisé de votre compte navigateur
@@ -109,8 +113,8 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 - ✅ **Pas d'analytics** — Aucun suivi, aucune télémétrie
 - ✅ **Fonctions gratuites : zéro requête réseau** — Tout le traitement se fait en local ; rien n'est envoyé tant que vous n'activez pas le Premium
 - ✅ **Permissions ciblées** — `activeTab` + `scripting` + `storage` exécutent le déblocage, plus l'accès aux sites utilisé uniquement pour l'injecter sur les pages que vous activez, et l'hôte de l'API de licence
-- ✅ **Liste de sites locale par défaut** — Activer LiteCopy enregistre ce domaine dans `chrome.storage.local`. Cette liste n'est jamais envoyée au développeur
-- ✅ **La synchronisation Premium utilise votre compte navigateur** — Avec une licence active, la liste est aussi reflétée dans `chrome.storage.sync`, la synchronisation de compte de votre fournisseur de navigateur. Le développeur n'y a pas accès et n'en reçoit aucune copie. La synchronisation s'arrête si vous supprimez la licence ; les règles locales continuent de fonctionner
+- ✅ **Liste de sites locale par défaut** — Activer LiteCopy enregistre ce domaine dans `storage.local`. Cette liste n'est jamais envoyée au développeur
+- ✅ **La synchronisation Premium utilise votre compte navigateur** — Avec une licence active, la liste est aussi reflétée dans `storage.sync`, la synchronisation de compte de votre fournisseur de navigateur. Le développeur n'y a pas accès et n'en reçoit aucune copie. La synchronisation s'arrête si vous supprimez la licence ; les règles locales continuent de fonctionner
 - ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, un identifiant d'installation minimal et votre clé de licence sont envoyés à `api.annmax1983.com` pour vérification. Aucune donnée n'est envoyée si vous n'activez pas de licence
 
 ---
@@ -123,7 +127,7 @@ Cet outil restaure uniquement les fonctions natives de manipulation de texte du 
 
 ## Avis sur le code source
 
-> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store. Aucun package d'installation hors ligne ni code source destiné aux utilisateurs finaux n'est fourni.
+> ⚠️ **Ce dépôt ne publie pas le code source.** Il contient uniquement la documentation d'utilisation et les ressources d'assistance. L'extension est distribuée exclusivement via le Chrome Web Store, Microsoft Edge Add-ons et Firefox Add-ons (AMO). Aucun package d'installation hors ligne ni code source destiné aux utilisateurs finaux n'est fourni.
 
 ---
 

@@ -4,7 +4,7 @@ English | [中文](languages/README_zh.md) | [Español](languages/README_es.md) 
 
 A lightweight browser extension that restores native text selection, right-click menu, and copy shortcuts on any website.
 
-> Chromium-based · Manifest V3 · Unlimited free copying · Premium cross-device site rules
+> Chrome · Edge · Firefox · Manifest V3 · Unlimited free copying · Premium cross-device site rules
 
 ---
 
@@ -16,7 +16,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 |-----------|--------|
 | 🔓 **One-Click Activate** | Restore native text selection instantly — no page refresh needed |
 | ♾️ **Free & Unlimited** | Copy, select and right-click as much as you want — no daily cap, no copy counter |
-| 🔄 **Cross-Device Site Rules** | Premium keeps the sites you enable in sync through your browser's own account sync (Chrome Sync / Edge Sync) |
+| 🔄 **Cross-Device Site Rules** | Premium keeps the sites you enable in sync through your browser's own account sync (Chrome Sync / Edge Sync / Firefox Sync) |
 | 🔒 **Local by Design** | Unlocking runs locally with `activeTab` + `scripting`; site access is used only on the pages you enable |
 | ⚡ **Lightweight** | No frameworks, no runtime dependencies |
 | 🌍 **6 Languages** | English, Chinese, Spanish, German, Japanese, French |
@@ -47,7 +47,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | Feature | Description |
 |---------|-------------|
 | 🔄 **Cross-Device Site Rules** | Enable a site once and the rule follows your browser account, so it is auto-enabled on your other signed-in devices |
-| 🔐 **Browser-Account Sync** | The list is stored by your browser in `chrome.storage.sync`. No LiteCopy account, no developer-hosted copy, and the developer cannot read it |
+| 🔐 **Browser-Account Sync** | The list is stored by your browser in `storage.sync` (Chrome Sync, Edge Sync or Firefox Sync). No LiteCopy account, no developer-hosted copy, and the developer cannot read it |
 | 💻 **Per-Device Access** | Browser host permissions cannot be synced. On a new device, click Enable once on the synced site to grant access — the saved rule is already there |
 | 🧭 **Manual Sync** | A **Sync now** button in Settings pulls the latest list from your browser account at any time |
 
@@ -65,11 +65,14 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 ## Supported Browsers
 
-| Browser | Status |
-|---------|--------|
-| Google Chrome | ✅ Fully supported |
-| Microsoft Edge | ✅ Fully supported |
-| Other Chromium-based browsers | ✅ Should work |
+| Browser | Status | Notes |
+|---------|--------|-------|
+| Google Chrome | ✅ Fully supported | Manifest V3 |
+| Microsoft Edge | ✅ Fully supported | Manifest V3 |
+| Mozilla Firefox | ✅ Fully supported | Manifest V3, Firefox 140+ (desktop) |
+| Other Chromium-based browsers | ✅ Should work | Manifest V3 |
+
+> **Firefox note:** unlocking works exactly the same way. Premium sync uses **Firefox Sync** — sign in to your Mozilla account in Firefox and the site rules follow you to other signed-in profiles.
 
 ---
 
@@ -79,6 +82,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 |---|---|
 | Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
 | Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+| Firefox Add-ons (AMO) | 🔜 Under review — link will be added once the listing is live |
 
 > Install only from the official stores above — avoid third-party download sites.
 
@@ -91,7 +95,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 3. Click **Enable** — text selection is restored instantly
 4. To disable, open the popup again and click **Disable** (the page reloads to restore original behavior)
 
-> **Note:** Some browser-restricted pages (`chrome://`, the Chrome Web Store, etc.) cannot be modified. The popup shows an error.
+> **Note:** Some browser-restricted pages cannot be modified — `chrome://` pages and the Chrome Web Store on Chrome / Edge, or `about:` pages and addons.mozilla.org on Firefox. The popup shows an error.
 
 **Site rules and sync (Premium):**
 - Enable a site on one device — the rule is added to your browser account's sync storage
@@ -109,8 +113,8 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 - ✅ **No analytics** — No tracking, no telemetry
 - ✅ **Free features: zero network requests** — All processing happens locally; nothing is sent unless you activate Premium
 - ✅ **Focused permissions** — `activeTab` + `scripting` + `storage` run the unlock, plus site access used solely to inject it on the pages you enable, and the license API host
-- ✅ **Site list stays local by default** — Enabling LiteCopy records that domain in `chrome.storage.local`. The list is never sent to the developer
-- ✅ **Premium sync uses your browser account** — With an active license the site list is also mirrored to `chrome.storage.sync`, which is your browser vendor's account sync. The developer has no access to it and receives no copy. Sync stops if the license is removed; existing local rules keep working
+- ✅ **Site list stays local by default** — Enabling LiteCopy records that domain in `storage.local`. The list is never sent to the developer
+- ✅ **Premium sync uses your browser account** — With an active license the site list is also mirrored to `storage.sync` (Chrome Sync / Edge Sync / Firefox Sync), which is your browser vendor's account sync. The developer has no access to it and receives no copy. Sync stops if the license is removed; existing local rules keep working
 - ✅ **License verification only** — Activating a Premium license sends a minimal install ID and your license key to `api.annmax1983.com` for verification. No data is sent if you don't activate a license
 
 ---
@@ -123,7 +127,7 @@ This tool only restores basic browser built-in text operation capabilities for u
 
 ## Source Code Notice
 
-> ⚠️ **This repository does not publish source code.** It contains only usage documentation and support resources. The extension is distributed exclusively through the Chrome Web Store. No offline installation packages or end-user source code are provided.
+> ⚠️ **This repository does not publish source code.** It contains only usage documentation and support resources. The extension is distributed exclusively through the Chrome Web Store, Microsoft Edge Add-ons and Firefox Add-ons (AMO). No offline installation packages or end-user source code are provided.
 
 ---
 

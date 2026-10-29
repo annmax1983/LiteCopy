@@ -4,7 +4,7 @@
 
 Una extensión ligera para el navegador que restaura la selección de texto nativa, el menú de clic derecho y los atajos de copiar en cualquier sitio web.
 
-> Basada en Chromium · Manifest V3 · Copias gratuitas ilimitadas · Reglas de sitios entre dispositivos en Premium
+> Chrome / Edge / Firefox · Manifest V3 · Copias gratuitas ilimitadas · Reglas de sitios entre dispositivos en Premium
 
 ---
 
@@ -47,7 +47,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 | Funcionalidad | Descripción |
 |---------|-------------|
 | 🔄 **Reglas de sitios entre dispositivos** | Activa un sitio una vez y la regla sigue tu cuenta del navegador, por lo que se activa sola en tus otros dispositivos con la misma cuenta |
-| 🔐 **Sincronización con la cuenta del navegador** | La lista la guarda tu navegador en `chrome.storage.sync`. Sin cuenta de LiteCopy, sin copia en un servidor del desarrollador y sin acceso para el desarrollador |
+| 🔐 **Sincronización con la cuenta del navegador** | La lista la guarda tu navegador en `storage.sync`. Sin cuenta de LiteCopy, sin copia en un servidor del desarrollador y sin acceso para el desarrollador |
 | 💻 **Acceso por dispositivo** | Los permisos de sitio del navegador no se sincronizan. En un dispositivo nuevo, pulsa Activar una vez en el sitio sincronizado para conceder acceso; la regla ya está guardada |
 | 🧭 **Sincronización manual** | El botón **Sincronizar ahora** de Configuración descarga la lista más reciente de tu cuenta del navegador cuando quieras |
 
@@ -69,7 +69,10 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 |---------|--------|
 | Google Chrome | ✅ Totalmente compatible |
 | Microsoft Edge | ✅ Totalmente compatible |
+| Mozilla Firefox | ✅ Totalmente compatible |
 | Otros navegadores basados en Chromium | ✅ Debería funcionar |
+
+> **Nota sobre Firefox:** Las páginas protegidas son las páginas `about:` y addons.mozilla.org. La sincronización entre dispositivos usa Firefox Sync (cuenta de Mozilla). El resto de funciones se comporta igual que en Chrome / Edge.
 
 ---
 
@@ -79,6 +82,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 |---|---|
 | Chrome Web Store | [Instalar en Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
 | Complementos de Microsoft Edge | [Instalar en Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
+| Complementos de Firefox (AMO) | 🔜 En revisión: el enlace se añadirá al publicarse |
 
 > Instale solo desde las tiendas oficiales de arriba; evite sitios de descarga de terceros.
 
@@ -91,7 +95,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 3. Haz clic en **Activar** — la selección de texto se restaura al instante
 4. Para desactivar, abre el popup de nuevo y haz clic en **Desactivar** (la página se recarga para restaurar el comportamiento original)
 
-> **Nota:** Algunas páginas restringidas por el navegador (`chrome://`, Chrome Web Store, etc.) no pueden modificarse. El popup muestra un error.
+> **Nota:** Algunas páginas restringidas por el navegador (`chrome://`, Chrome Web Store, Microsoft Edge Add-ons y Firefox Add-ons (AMO), etc.) no pueden modificarse. El popup muestra un error.
 
 **Reglas de sitios y sincronización (Premium):**
 - Activa un sitio en un dispositivo — la regla se añade al almacenamiento sincronizado de tu cuenta del navegador
@@ -109,8 +113,8 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 - ✅ **Sin analíticas** — Sin rastreo, sin telemetría
 - ✅ **Funciones gratuitas: cero solicitudes de red** — Todo el procesamiento ocurre localmente; no se envía nada a menos que actives Premium
 - ✅ **Permisos concretos** — `activeTab` + `scripting` + `storage` ejecutan el desbloqueo, más el acceso a sitios usado únicamente para inyectarlo en las páginas que actives, y el host de la API de licencias
-- ✅ **La lista de sitios es local por defecto** — Activar LiteCopy guarda ese dominio en `chrome.storage.local`. La lista nunca se envía al desarrollador
-- ✅ **La sincronización Premium usa tu cuenta del navegador** — Con una licencia activa, la lista también se refleja en `chrome.storage.sync`, la sincronización de cuenta de tu proveedor de navegador. El desarrollador no tiene acceso ni recibe copia. La sincronización se detiene si eliminas la licencia; las reglas locales siguen funcionando
+- ✅ **La lista de sitios es local por defecto** — Activar LiteCopy guarda ese dominio en `storage.local`. La lista nunca se envía al desarrollador
+- ✅ **La sincronización Premium usa tu cuenta del navegador** — Con una licencia activa, la lista también se refleja en `storage.sync`, la sincronización de cuenta de tu proveedor de navegador. El desarrollador no tiene acceso ni recibe copia. La sincronización se detiene si eliminas la licencia; las reglas locales siguen funcionando
 - ✅ **Solo verificación de licencia** — Al activar una licencia Premium se envían un ID de instalación mínimo y tu clave a `api.annmax1983.com` para verificarlos. No se envían datos si no activas una licencia
 
 ---
@@ -123,7 +127,7 @@ Esta herramienta solo restaura las capacidades básicas de operación de texto i
 
 ## Aviso sobre el código fuente
 
-> ⚠️ **Este repositorio no publica código fuente.** Contiene únicamente documentación de uso y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store. No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
+> ⚠️ **Este repositorio no publica código fuente.** Contiene únicamente documentación de uso y recursos de soporte. La extensión se distribuye exclusivamente a través de Chrome Web Store, Microsoft Edge Add-ons y Firefox Add-ons (AMO). No se proporcionan paquetes de instalación sin conexión ni código fuente para usuarios finales.
 
 ---
 
