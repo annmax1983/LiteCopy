@@ -39,6 +39,9 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | 🧠 **Remembered Sites** | Sites you enable are remembered locally and auto-enabled on your next visit |
 | 💬 **Toast Notification** | Auto-dismissing notification shows activation status |
 | 📋 **Copy Page Info** | Popup buttons to copy page title, URL, or both |
+| 🖱️ **Right-Click Actions** | Enable a site, disable it on the current page, copy the page title and URL, or open Site Manager straight from the page context menu |
+| 🗂 **Site Manager** | A separate page listing every remembered domain, whether this device has access, and its Full/Light mode — each row removable with a confirm step |
+| 🪶 **Light Mode per Site** | For sites with slider CAPTCHAs or rich-text editors, restore only right-click and selection — LiteCopy leaves copy and keyboard events completely alone |
 
 > All features above are free with no copy limit and no daily reset.
 
@@ -50,8 +53,9 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | 🔐 **Browser-Account Sync** | The list is stored by your browser in `storage.sync` (Chrome Sync, Edge Sync or Firefox Sync). No LiteCopy account, no developer-hosted copy, and the developer cannot read it |
 | 💻 **Per-Device Access** | Browser host permissions cannot be synced. On a new device, click Enable once on the synced site to grant access — the saved rule is already there |
 | 🧭 **Manual Sync** | A **Sync now** button in Settings pulls the latest list from your browser account at any time |
+| 📦 **Rule Backup & Transfer** | Export all remembered sites (with their Full/Light mode) to a JSON file and import it on another browser profile or device |
 
-> 💡 One-time purchase or monthly subscription. [Get License →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
+> 💡 One-time purchase. [Get License →](https://annmax1983.com/checkout?plugin=litecopy)
 
 ---
 
@@ -82,7 +86,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 |---|---|
 | Chrome Web Store | [Install for Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
 | Microsoft Edge Add-ons | [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
-| Firefox Add-ons (AMO) | 🔜 Under review — link will be added once the listing is live |
+| Firefox Add-ons (AMO) | [Install for Firefox](https://addons.mozilla.org/firefox/addon/litecopy-enable-copy/) |
 
 > Install only from the official stores above — avoid third-party download sites.
 
@@ -97,10 +101,20 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 > **Note:** Some browser-restricted pages cannot be modified — `chrome://` pages and the Chrome Web Store on Chrome / Edge, or `about:` pages and addons.mozilla.org on Firefox. The popup shows an error.
 
+**Right-click menu:**
+- Right-click any page to **Enable on this site**, **Disable on this page**, **Copy page title and URL**, or open **Manage sites**
+- Enabling from the menu asks for site access once; if you decline, the current tab still unlocks for this visit
+
+**Site Manager:**
+- Open it from the popup's **Manage sites** button or from the right-click menu
+- Every remembered domain is listed with whether this device has access, a **Full / Light** switch, and a **Remove** button that needs a second confirming click
+- **Light** restores only right-click and text selection. Copy and keyboard handlers are left untouched, which keeps slider CAPTCHAs and rich-text editors working normally
+
 **Site rules and sync (Premium):**
 - Enable a site on one device — the rule is added to your browser account's sync storage
 - On another device signed into the same browser account, the site appears as a saved rule; click **Enable** once to grant that device's host permission
 - Open **Settings** to see how many sites are synced and use **Sync now** if you want to refresh immediately
+- **Export / Import** live in the Site Manager's **Backup & transfer** card, not in the popup: they back up the site list (including Light mode) to a JSON file and restore it on another profile. Full and Light mode choices are stored per device; only the domain list syncs automatically
 
 **Copy Page Info:**
 - Click the icon → popup opens
@@ -112,10 +126,10 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 - ✅ **No analytics** — No tracking, no telemetry
 - ✅ **Free features: zero network requests** — All processing happens locally; nothing is sent unless you activate Premium
-- ✅ **Focused permissions** — `activeTab` + `scripting` + `storage` run the unlock, plus site access used solely to inject it on the pages you enable, and the license API host
+- ✅ **Focused permissions** — `activeTab` + `scripting` + `storage` run the unlock, `contextMenus` adds the right-click entries to the browser's own menu, `alarms` schedules the Premium license re-check, plus site access used solely to inject it on the pages you enable, and the license API host
 - ✅ **Site list stays local by default** — Enabling LiteCopy records that domain in `storage.local`. The list is never sent to the developer
 - ✅ **Premium sync uses your browser account** — With an active license the site list is also mirrored to `storage.sync` (Chrome Sync / Edge Sync / Firefox Sync), which is your browser vendor's account sync. The developer has no access to it and receives no copy. Sync stops if the license is removed; existing local rules keep working
-- ✅ **License verification only** — Activating a Premium license sends a minimal install ID and your license key to `api.annmax1983.com` for verification. No data is sent if you don't activate a license
+- ✅ **License verification only** — Activating a Premium license sends your license key, a random install identifier, a plugin identifier and browser metadata (browser, language list, time zone, user agent) to `api.annmax1983.com` for verification — the same fields described in the privacy policy. No data is sent if you don't activate a license
 
 ---
 
@@ -148,3 +162,13 @@ Copyright © 2026 LiteCopy. All rights reserved.
 If you find LiteCopy helpful, consider supporting the project!
 
 **[👉 Click here to support](https://ko-fi.com/annmax?ref=litecopy)**
+
+---
+
+## Links
+
+- **Official website:** https://annmax1983.com/
+- **This extension:** https://annmax1983.com/extensions/litecopy
+- **Privacy policy:** https://annmax1983.com/privacy
+- **Contact:** support@annmax1983.com
+- **☕ Support this project (Ko-fi):** https://ko-fi.com/annmax?ref=litecopy

@@ -16,10 +16,10 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 |-----------|--------|
 | 🔓 **Activation en un clic** | Restaure la sélection de texte native instantanément — aucun rechargement de page nécessaire |
 | ♾️ **Gratuit et illimité** | Copiez, sélectionnez et utilisez le clic droit autant que vous voulez — sans limite quotidienne ni compteur |
-| 🔄 **Règles de sites entre appareils** | Premium synchronise les sites que vous activez via le compte intégré du navigateur (Chrome Sync / Edge Sync) |
+| 🔄 **Règles de sites entre appareils** | Premium synchronise les sites que vous activez via le compte intégré du navigateur (Chrome Sync / Edge Sync / Firefox Sync) |
 | 🔒 **Local par conception** | Le déblocage s'exécute localement avec `activeTab` + `scripting` ; l'accès aux sites ne sert qu'aux pages que vous activez |
 | ⚡ **Léger** | Pas de frameworks, pas de dépendances d'exécution |
-| 🌍 **6 langues** | English, 中文, Español, Deutsch, 日本語, Français |
+| 🌍 **6 langues** | Anglais, chinois, espagnol, allemand, japonais, français |
 | 🚫 **Pas de suivi** | Pas d'analytics, pas de télémétrie. Le développeur n'a aucun serveur stockant votre historique ou votre liste de sites |
 | 🎯 **Interrupteur simple** | Ouvrez le popup et appuyez sur Activer/Désactiver — indicateur d'état ON/OFF clair |
 
@@ -39,6 +39,9 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 | 🧠 **Sites mémorisés** | Les sites que vous activez sont mémorisés localement et réactivés automatiquement à la prochaine visite |
 | 💬 **Notification toast** | Notification auto-fermante affichant le statut d'activation |
 | 📋 **Copier les infos de la page** | Boutons du popup pour copier le titre de la page, l'URL, ou les deux |
+| 🖱️ **Actions du menu contextuel** | Activez un site, désactivez la page actuelle, copiez le titre et l'URL de la page ou ouvrez le gestionnaire de sites directement depuis le menu contextuel de la page |
+| 🗂 **Gestionnaire de sites** | Une page indépendante qui liste chaque domaine mémorisé, l'accès dont dispose cet appareil et son mode Complet/Léger — chaque ligne se retire après une confirmation |
+| 🪶 **Mode Léger par site** | Pour les sites avec captchas à glissière ou éditeurs de texte enrichi, restaure uniquement le clic droit et la sélection — LiteCopy laisse totalement intacts les événements de copie et de clavier |
 
 > Toutes les fonctions ci-dessus sont gratuites et illimitées — aucun quota quotidien, aucun compteur.
 
@@ -50,8 +53,9 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 | 🔐 **Synchronisation via le compte navigateur** | La liste est stockée par votre navigateur dans `storage.sync`. Aucun compte LiteCopy, aucune copie sur un serveur développeur, et le développeur n'y a pas accès |
 | 💻 **Accès par appareil** | Les autorisations de site du navigateur ne peuvent pas être synchronisées. Sur un nouvel appareil, cliquez une fois sur **Activer** pour le site synchronisé afin d'accorder l'accès — la règle est déjà enregistrée |
 | 🧭 **Synchronisation manuelle** | Le bouton **Synchroniser** des paramètres récupère la liste la plus récente depuis votre compte navigateur à tout moment |
+| 📦 **Sauvegarde et transfert des règles** | Exportez tous les sites mémorisés (avec leur mode Complet/Léger) dans un fichier JSON et importez-les sur un autre profil de navigateur ou un autre appareil |
 
-> 💡 Achat unique ou abonnement mensuel. [Obtenir une licence →](https://www.annmax1983.com/checkout.html?plugin=litecopy)
+> 💡 Achat unique. [Obtenir une licence →](https://annmax1983.com/checkout?plugin=litecopy)
 
 ---
 
@@ -82,7 +86,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 |---|---|
 | Chrome Web Store | [Installer dans Chrome](https://chromewebstore.google.com/detail/opckcochfnlfcdoblnmgeebeeggfnilg) |
 | Microsoft Edge Add-ons | [Installer dans Edge](https://microsoftedge.microsoft.com/addons/detail/acpfcfipfalphidhmpflecncacgldggl) |
-| Modules complémentaires Firefox (AMO) | 🔜 En cours d’examen — le lien sera ajouté après publication |
+| Modules complémentaires Firefox (AMO) | [Installer pour Firefox](https://addons.mozilla.org/firefox/addon/litecopy-enable-copy/) |
 
 > Installez uniquement depuis les boutiques officielles ci-dessus — évitez les sites de téléchargement tiers.
 
@@ -97,10 +101,20 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 
 > **Note :** Certaines pages restreintes par le navigateur (`chrome://`, le Chrome Web Store, Microsoft Edge Add-ons et Firefox Add-ons (AMO), etc.) ne peuvent pas être modifiées. Le popup affiche une erreur.
 
+**Menu contextuel :**
+- Faites un clic droit sur n'importe quelle page pour **Activer sur ce site**, **Désactiver sur cette page**, **Copier le titre et l'URL de la page** ou ouvrir **Gérer les sites**
+- L'activation depuis le menu demande l'accès au site une seule fois ; si vous refusez, l'onglet actuel est quand même débloqué pour cette visite
+
+**Gestionnaire de sites :**
+- Ouvrez-le depuis le bouton **Gérer les sites** du popup ou depuis le menu contextuel
+- Chaque domaine mémorisé est listé avec l'accès de cet appareil, un interrupteur **Complet / Léger** et un bouton **Retirer** qui demande un second clic pour confirmer
+- Le mode **Léger** restaure uniquement le clic droit et la sélection de texte. Les gestionnaires de copie et de clavier ne sont pas touchés, ce qui laisse les captchas à glissière et les éditeurs de texte enrichi fonctionner normalement
+
 **Règles de sites et synchronisation (Premium) :**
 - Activez un site sur un appareil — la règle est ajoutée au stockage synchronisé de votre compte navigateur
 - Sur un autre appareil connecté au même compte navigateur, le site apparaît comme règle enregistrée ; cliquez une fois sur **Activer** pour accorder l'autorisation de site de cet appareil
 - Ouvrez les **Paramètres** pour voir le nombre de sites synchronisés et utilisez **Synchroniser** pour actualiser immédiatement
+- **Exporter / Importer** se trouvent dans la carte **Sauvegarde et transfert** du gestionnaire de sites, pas dans le popup : ils sauvegardent la liste des sites (mode Léger inclus) dans un fichier JSON et la restaurent sur un autre profil. Les choix Complet et Léger restent enregistrés sur chaque appareil ; seule la liste des domaines se synchronise automatiquement
 
 **Copier les infos de la page :**
 - Cliquez sur l'icône → le popup s'ouvre
@@ -112,10 +126,10 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 
 - ✅ **Pas d'analytics** — Aucun suivi, aucune télémétrie
 - ✅ **Fonctions gratuites : zéro requête réseau** — Tout le traitement se fait en local ; rien n'est envoyé tant que vous n'activez pas le Premium
-- ✅ **Permissions ciblées** — `activeTab` + `scripting` + `storage` exécutent le déblocage, plus l'accès aux sites utilisé uniquement pour l'injecter sur les pages que vous activez, et l'hôte de l'API de licence
+- ✅ **Permissions ciblées** — `activeTab` + `scripting` + `storage` exécutent le déblocage, `contextMenus` sert uniquement à ajouter des entrées LiteCopy au menu contextuel du navigateur, `alarms` uniquement à la revérification périodique de la licence Premium, plus l'accès aux sites utilisé uniquement pour l'injecter sur les pages que vous activez, et l'hôte de l'API de licence
 - ✅ **Liste de sites locale par défaut** — Activer LiteCopy enregistre ce domaine dans `storage.local`. Cette liste n'est jamais envoyée au développeur
 - ✅ **La synchronisation Premium utilise votre compte navigateur** — Avec une licence active, la liste est aussi reflétée dans `storage.sync`, la synchronisation de compte de votre fournisseur de navigateur. Le développeur n'y a pas accès et n'en reçoit aucune copie. La synchronisation s'arrête si vous supprimez la licence ; les règles locales continuent de fonctionner
-- ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, un identifiant d'installation minimal et votre clé de licence sont envoyés à `api.annmax1983.com` pour vérification. Aucune donnée n'est envoyée si vous n'activez pas de licence
+- ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, votre clé de licence, un identifiant d'installation aléatoire, l'identifiant de l'extension et des métadonnées de navigateur (navigateur, liste de langues, fuseau horaire, user agent) sont envoyés à `api.annmax1983.com` pour vérification — les mêmes champs que ceux décrits dans la politique de confidentialité. Aucune donnée n'est envoyée si vous n'activez pas de licence
 
 ---
 
@@ -148,3 +162,12 @@ Copyright © 2026 LiteCopy. Tous droits réservés.
 Si LiteCopy vous est utile, n'hésitez pas à soutenir le projet !
 
 **[👉 Cliquez ici pour soutenir](https://ko-fi.com/annmax?ref=litecopy)**
+
+---
+
+## Liens
+
+- **Site officiel:** https://annmax1983.com/
+- **Cette extension:** https://annmax1983.com/extensions/litecopy
+- **Confidentialité:** https://annmax1983.com/privacy
+- **Contact:** support@annmax1983.com
