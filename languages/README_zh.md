@@ -139,21 +139,25 @@
 
 ---
 
-## 源码说明
-
-> ⚠️ **此处不发布源码。** 本仓库仅提供使用说明和留言支持服务。扩展程序仅通过 Chrome Web Store、Microsoft Edge Add-ons 与 Firefox 附加组件（AMO） 分发，不提供离线安装包或终端用户源代码。
-
----
-
 ## 隐私政策
 
 完整说明请见[隐私政策](../privacy-policy.html) —— 免费功能完全离线运行，零网络请求。
 
 ---
 
+## 源码说明
+
+> ⚠️ **本仓库仅用于项目展示，不发布完整源码。** 这里只有扩展的使用说明、更新日志与支持信息。
+
+> 📥 **请前往官方浏览器商店下载安装：** Chrome Web Store · Microsoft Edge Add-ons · Firefox 附加组件（AMO）。本仓库不提供离线安装包，也不向终端用户分发源码包。
+
+---
+
 ## 许可证
 
 Copyright © 2026 LiteCopy. All rights reserved.
+
+本软件为闭源专有软件。未经作者书面授权，严禁反编译、逆向工程、破解、修改、重新打包、再分发或转售本软件（含全部或部分）。
 
 ---
 
@@ -162,10 +166,6 @@ Copyright © 2026 LiteCopy. All rights reserved.
 如果你觉得 LiteCopy 有帮助，欢迎支持！
 
 **[👉 点击支持](https://ko-fi.com/annmax?ref=litecopy)**
-
----
-
-> **注意：** 本仓库仅用于**项目展示**，不包含完整源代码、manifest、图标或构建脚本。完整源代码**不会**在此发布。
 
 ---
 
