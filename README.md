@@ -4,7 +4,7 @@ English | [中文](languages/README_zh.md) | [Español](languages/README_es.md) 
 
 A lightweight browser extension that restores native text selection, right-click menu, and copy shortcuts on any website.
 
-> Chrome · Edge · Firefox · Manifest V3 · Unlimited free copying · Premium cross-device site rules
+> Chrome · Edge · Firefox · Manifest V3 · Unlimited free copying · Pro cross-device site rules
 
 ---
 
@@ -16,7 +16,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 |-----------|--------|
 | 🔓 **One-Click Activate** | Restore native text selection instantly — no page refresh needed |
 | ♾️ **Free & Unlimited** | Copy, select and right-click as much as you want — no daily cap, no copy counter |
-| 🔄 **Cross-Device Site Rules** | Premium keeps the sites you enable in sync through your browser's own account sync (Chrome Sync / Edge Sync / Firefox Sync) |
+| 🔄 **Cross-Device Site Rules** | Pro keeps the sites you enable in sync through your browser's own account sync (Chrome Sync / Edge Sync / Firefox Sync) |
 | 🔒 **Local by Design** | Unlocking runs locally with `activeTab` + `scripting`; site access is used only on the pages you enable |
 | ⚡ **Lightweight** | No frameworks, no runtime dependencies |
 | 🌍 **6 Languages** | English, Chinese, Spanish, German, Japanese, French |
@@ -45,7 +45,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 
 > All features above are free with no copy limit and no daily reset.
 
-### ⭐ Premium — site rules across devices
+### ⭐ Pro — site rules across devices
 
 | Feature | Description |
 |---------|-------------|
@@ -76,7 +76,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | Mozilla Firefox | ✅ Fully supported | Manifest V3, Firefox 140+ (desktop) |
 | Other Chromium-based browsers | ✅ Should work | Manifest V3 |
 
-> **Firefox note:** unlocking works exactly the same way. Premium sync uses **Firefox Sync** — sign in to your Mozilla account in Firefox and the site rules follow you to other signed-in profiles.
+> **Firefox note:** unlocking works exactly the same way. Pro sync uses **Firefox Sync** — sign in to your Mozilla account in Firefox and the site rules follow you to other signed-in profiles.
 
 ---
 
@@ -110,7 +110,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 - Every remembered domain is listed with whether this device has access, a **Full / Light** switch, and a **Remove** button that needs a second confirming click
 - **Light** restores only right-click and text selection. Copy and keyboard handlers are left untouched, which keeps slider CAPTCHAs and rich-text editors working normally
 
-**Site rules and sync (Premium):**
+**Site rules and sync (Pro):**
 - Enable a site on one device — the rule is added to your browser account's sync storage
 - On another device signed into the same browser account, the site appears as a saved rule; click **Enable** once to grant that device's host permission
 - Open **Settings** to see how many sites are synced and use **Sync now** if you want to refresh immediately
@@ -125,11 +125,11 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 ## Privacy
 
 - ✅ **No analytics** — No tracking, no telemetry
-- ✅ **Free features: zero network requests** — All processing happens locally; nothing is sent unless you activate Premium
-- ✅ **Focused permissions** — `activeTab` + `scripting` + `storage` run the unlock, `contextMenus` adds the right-click entries to the browser's own menu, `alarms` schedules the Premium license re-check, plus site access used solely to inject it on the pages you enable, and the license API host
+- ✅ **Free features: zero network requests** — All processing happens locally; nothing is sent unless you activate Pro
+- ✅ **Focused permissions** — `activeTab` + `scripting` + `storage` run the unlock, `contextMenus` adds the right-click entries to the browser's own menu, `alarms` schedules the Pro license re-check, plus site access used solely to inject it on the pages you enable, and the license API host
 - ✅ **Site list stays local by default** — Enabling LiteCopy records that domain in `storage.local`. The list is never sent to the developer
-- ✅ **Premium sync uses your browser account** — With an active license the site list is also mirrored to `storage.sync` (Chrome Sync / Edge Sync / Firefox Sync), which is your browser vendor's account sync. The developer has no access to it and receives no copy. Sync stops if the license is removed; existing local rules keep working
-- ✅ **License verification only** — Activating a Premium license sends your license key, a random install identifier, a plugin identifier and browser metadata (browser, language list, time zone, user agent) to `api.annmax1983.com` for verification — the same fields described in the privacy policy. No data is sent if you don't activate a license
+- ✅ **Pro sync uses your browser account** — With an active license the site list is also mirrored to `storage.sync` (Chrome Sync / Edge Sync / Firefox Sync), which is your browser vendor's account sync. The developer has no access to it and receives no copy. Sync stops if the license is removed; existing local rules keep working
+- ✅ **License verification only** — Activating a Pro license sends your license key, a random install identifier, a plugin identifier and browser metadata (browser, language list, time zone, user agent) to `api.annmax1983.com` for verification — the same fields described in the privacy policy. No data is sent if you don't activate a license
 
 ---
 

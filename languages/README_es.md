@@ -4,7 +4,7 @@
 
 Una extensión ligera para el navegador que restaura la selección de texto nativa, el menú de clic derecho y los atajos de copiar en cualquier sitio web.
 
-> Chrome / Edge / Firefox · Manifest V3 · Copias gratuitas ilimitadas · Reglas de sitios entre dispositivos en Premium
+> Chrome / Edge / Firefox · Manifest V3 · Copias gratuitas ilimitadas · Reglas de sitios entre dispositivos en Pro
 
 ---
 
@@ -16,7 +16,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 |---------|--------|
 | 🔓 **Activar con un clic** | Restaura la selección de texto nativa al instante — sin necesidad de recargar la página |
 | ♾️ **Gratis e ilimitado** | Copia, selecciona y usa el clic derecho todo lo que quieras — sin límite diario ni contador |
-| 🔄 **Reglas de sitios entre dispositivos** | Premium sincroniza los sitios que activas mediante la cuenta integrada del navegador (Chrome Sync / Edge Sync / Firefox Sync) |
+| 🔄 **Reglas de sitios entre dispositivos** | Pro sincroniza los sitios que activas mediante la cuenta integrada del navegador (Chrome Sync / Edge Sync / Firefox Sync) |
 | 🔒 **Local por diseño** | El desbloqueo se ejecuta localmente con `activeTab` + `scripting`; el acceso a sitios solo se usa en las páginas que activas |
 | ⚡ **Ligera** | Sin frameworks, sin dependencias en tiempo de ejecución |
 | 🌍 **6 idiomas** | Inglés, chino, español, alemán, japonés y francés |
@@ -45,7 +45,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 
 > Todas las funciones anteriores son gratuitas, sin límite de copias ni reinicio diario.
 
-### ⭐ Premium — reglas de sitios entre dispositivos
+### ⭐ Pro — reglas de sitios entre dispositivos
 
 | Funcionalidad | Descripción |
 |---------|-------------|
@@ -110,7 +110,7 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 - Cada dominio recordado aparece en la lista con la indicación de si este dispositivo tiene acceso, un interruptor **Completo / Ligero** y un botón **Quitar** que pide un segundo clic para confirmar
 - El modo **Ligero** solo restaura el clic derecho y la selección de texto. Los manejadores de copia y de teclado quedan intactos, así que los captchas deslizantes y los editores de texto enriquecido siguen funcionando con normalidad
 
-**Reglas de sitios y sincronización (Premium):**
+**Reglas de sitios y sincronización (Pro):**
 - Activa un sitio en un dispositivo — la regla se añade al almacenamiento sincronizado de tu cuenta del navegador
 - En otro dispositivo con la misma cuenta del navegador, el sitio aparece como regla guardada; pulsa **Activar** una vez para conceder el permiso de sitio de ese dispositivo
 - Abre **Configuración** para ver cuántos sitios están sincronizados y usa **Sincronizar ahora** si quieres actualizar de inmediato
@@ -125,11 +125,11 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 ## Privacidad
 
 - ✅ **Sin analíticas** — Sin rastreo, sin telemetría
-- ✅ **Funciones gratuitas: cero solicitudes de red** — Todo el procesamiento ocurre localmente; no se envía nada a menos que actives Premium
-- ✅ **Permisos concretos** — `activeTab` + `scripting` + `storage` ejecutan el desbloqueo, `contextMenus` solo añade entradas de LiteCopy al menú contextual del navegador, `alarms` solo programa la revalidación de la licencia Premium, más el acceso a sitios usado únicamente para inyectarlo en las páginas que actives, y el host de la API de licencias
+- ✅ **Funciones gratuitas: cero solicitudes de red** — Todo el procesamiento ocurre localmente; no se envía nada a menos que actives Pro
+- ✅ **Permisos concretos** — `activeTab` + `scripting` + `storage` ejecutan el desbloqueo, `contextMenus` solo añade entradas de LiteCopy al menú contextual del navegador, `alarms` solo programa la revalidación de la licencia Pro, más el acceso a sitios usado únicamente para inyectarlo en las páginas que actives, y el host de la API de licencias
 - ✅ **La lista de sitios es local por defecto** — Activar LiteCopy guarda ese dominio en `storage.local`. La lista nunca se envía al desarrollador
-- ✅ **La sincronización Premium usa tu cuenta del navegador** — Con una licencia activa, la lista también se refleja en `storage.sync`, la sincronización de cuenta de tu proveedor de navegador. El desarrollador no tiene acceso ni recibe copia. La sincronización se detiene si eliminas la licencia; las reglas locales siguen funcionando
-- ✅ **Solo verificación de licencia** — Al activar una licencia Premium se envían a `api.annmax1983.com` tu clave de licencia, un identificador de instalación aleatorio, el identificador de la extensión y metadatos del navegador (navegador, lista de idiomas, zona horaria, agente de usuario) para verificarlos — los mismos campos descritos en la política de privacidad. No se envían datos si no activas una licencia
+- ✅ **La sincronización Pro usa tu cuenta del navegador** — Con una licencia activa, la lista también se refleja en `storage.sync`, la sincronización de cuenta de tu proveedor de navegador. El desarrollador no tiene acceso ni recibe copia. La sincronización se detiene si eliminas la licencia; las reglas locales siguen funcionando
+- ✅ **Solo verificación de licencia** — Al activar una licencia Pro se envían a `api.annmax1983.com` tu clave de licencia, un identificador de instalación aleatorio, el identificador de la extensión y metadatos del navegador (navegador, lista de idiomas, zona horaria, agente de usuario) para verificarlos — los mismos campos descritos en la política de privacidad. No se envían datos si no activas una licencia
 
 ---
 

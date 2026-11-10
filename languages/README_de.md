@@ -4,7 +4,7 @@
 
 Eine schlanke Browser-Erweiterung, die native Textauswahl, Rechtsklick-Menü und Kopier-Tastenkürzel auf jeder Website wiederherstellt.
 
-> Chrome / Edge / Firefox · Manifest V3 · Kostenlos unbegrenzt kopieren · Premium: Website-Regeln geräteübergreifend
+> Chrome / Edge / Firefox · Manifest V3 · Kostenlos unbegrenzt kopieren · Pro: Website-Regeln geräteübergreifend
 
 ---
 
@@ -16,7 +16,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 |---------|---------|
 | 🔓 **Ein-Klick-Aktivierung** | Native Textauswahl sofort wiederherstellen — kein Seiten-Neuladen nötig |
 | ♾️ **Kostenlos & unbegrenzt** | Kopieren, Auswählen und Rechtsklick so oft wie gewünscht — kein Tageslimit, kein Zähler |
-| 🔄 **Website-Regeln geräteübergreifend** | Premium synchronisiert die aktivierten Websites über die integrierte Kontosynchronisierung des Browsers (Chrome Sync / Edge Sync / Firefox Sync) |
+| 🔄 **Website-Regeln geräteübergreifend** | Pro synchronisiert die aktivierten Websites über die integrierte Kontosynchronisierung des Browsers (Chrome Sync / Edge Sync / Firefox Sync) |
 | 🔒 **Lokal konzipiert** | Das Entsperren läuft lokal mit `activeTab` + `scripting`; der Website-Zugriff dient nur den Seiten, die du aktivierst |
 | ⚡ **Leichtgewichtig** | Keine Frameworks, keine Laufzeitabhängigkeiten |
 | 🌍 **6 Sprachen** | Englisch, Chinesisch, Spanisch, Deutsch, Japanisch, Französisch |
@@ -45,7 +45,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 
 > Alle Funktionen oben sind kostenlos und unbegrenzt — kein Tageskontingent, kein Reset.
 
-### ⭐ Premium — Website-Regeln geräteübergreifend
+### ⭐ Pro — Website-Regeln geräteübergreifend
 
 | Funktion | Beschreibung |
 |----------|--------------|
@@ -110,7 +110,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 - Jede gemerkte Domain ist aufgelistet — mit der Angabe, ob dieses Gerät Zugriff hat, einem Schalter **Voll / Leicht** und einem Button **Entfernen**, der zur Bestätigung einen zweiten Klick verlangt
 - **Leicht** stellt nur Rechtsklick und Textauswahl wieder her. Die Kopier- und Tastatur-Handler bleiben unberührt, wodurch Slider-CAPTCHAs und Rich-Text-Editoren normal weiterfunktionieren
 
-**Website-Regeln und Synchronisierung (Premium):**
+**Website-Regeln und Synchronisierung (Pro):**
 - Aktiviere eine Website auf einem Gerät — die Regel wird dem synchronisierten Speicher deines Browserkontos hinzugefügt
 - Auf einem anderen Gerät mit demselben Browserkonto erscheint die Website als gespeicherte Regel; klicke einmal auf **Aktivieren**, um die Website-Berechtigung dieses Geräts zu erteilen
 - Öffne die **Einstellungen**, um die Anzahl synchronisierter Websites zu sehen, und nutze **Jetzt synchronisieren** für eine sofortige Aktualisierung
@@ -125,11 +125,11 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 ## Datenschutz
 
 - ✅ **Keine Analytik** — Kein Tracking, keine Telemetrie
-- ✅ **Kostenlose Funktionen: null Netzwerk-Anfragen** — Alles passiert lokal; nichts wird gesendet, es sei denn, du aktivierst Premium
-- ✅ **Gezielte Berechtigungen** — `activeTab` + `scripting` + `storage` führen das Entsperren aus, `contextMenus` ergänzt nur das Rechtsklickmenü des Browsers um eigene Einträge, `alarms` dient nur der erneuten Premium-Lizenzprüfung, dazu Website-Zugriff, der ausschließlich dem Einfügen auf aktivierten Seiten dient, und der Lizenz-API-Host
+- ✅ **Kostenlose Funktionen: null Netzwerk-Anfragen** — Alles passiert lokal; nichts wird gesendet, es sei denn, du aktivierst Pro
+- ✅ **Gezielte Berechtigungen** — `activeTab` + `scripting` + `storage` führen das Entsperren aus, `contextMenus` ergänzt nur das Rechtsklickmenü des Browsers um eigene Einträge, `alarms` dient nur der erneuten Pro-Lizenzprüfung, dazu Website-Zugriff, der ausschließlich dem Einfügen auf aktivierten Seiten dient, und der Lizenz-API-Host
 - ✅ **Website-Liste standardmäßig lokal** — Wird LiteCopy auf einer Seite aktiviert, wird die Domain in `storage.local` gemerkt. Die Liste wird nie an den Entwickler gesendet
-- ✅ **Premium-Sync nutzt dein Browserkonto** — Mit aktiver Lizenz wird die Liste zusätzlich in `storage.sync` gespiegelt, der Kontosynchronisierung deines Browser-Anbieters. Der Entwickler hat keinen Zugriff und erhält keine Kopie. Wird die Lizenz entfernt, stoppt die Synchronisierung; lokale Regeln funktionieren weiter
-- ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Premium-Lizenz werden dein Lizenzschlüssel, eine zufällige Installationskennung, eine Plugin-Kennung und Browser-Metadaten (Browser, Sprachliste, Zeitzone, User-Agent) zur Verifizierung an `api.annmax1983.com` gesendet — dieselben Felder, die in der Datenschutzrichtlinie beschrieben werden. Ohne Lizenzaktivierung werden keine Daten gesendet
+- ✅ **Pro-Sync nutzt dein Browserkonto** — Mit aktiver Lizenz wird die Liste zusätzlich in `storage.sync` gespiegelt, der Kontosynchronisierung deines Browser-Anbieters. Der Entwickler hat keinen Zugriff und erhält keine Kopie. Wird die Lizenz entfernt, stoppt die Synchronisierung; lokale Regeln funktionieren weiter
+- ✅ **Nur Lizenzverifizierung** — Bei Aktivierung einer Pro-Lizenz werden dein Lizenzschlüssel, eine zufällige Installationskennung, eine Plugin-Kennung und Browser-Metadaten (Browser, Sprachliste, Zeitzone, User-Agent) zur Verifizierung an `api.annmax1983.com` gesendet — dieselben Felder, die in der Datenschutzrichtlinie beschrieben werden. Ohne Lizenzaktivierung werden keine Daten gesendet
 
 ---
 

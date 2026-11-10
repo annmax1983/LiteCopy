@@ -4,7 +4,7 @@
 
 Une extension légère qui restaure la sélection de texte native, le menu contextuel et les raccourcis de copie sur n'importe quel site web.
 
-> Chrome / Edge / Firefox · Manifest V3 · Copies gratuites illimitées · Règles de sites entre appareils en Premium
+> Chrome / Edge / Firefox · Manifest V3 · Copies gratuites illimitées · Règles de sites entre appareils en Pro
 
 ---
 
@@ -16,7 +16,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 |-----------|--------|
 | 🔓 **Activation en un clic** | Restaure la sélection de texte native instantanément — aucun rechargement de page nécessaire |
 | ♾️ **Gratuit et illimité** | Copiez, sélectionnez et utilisez le clic droit autant que vous voulez — sans limite quotidienne ni compteur |
-| 🔄 **Règles de sites entre appareils** | Premium synchronise les sites que vous activez via le compte intégré du navigateur (Chrome Sync / Edge Sync / Firefox Sync) |
+| 🔄 **Règles de sites entre appareils** | Pro synchronise les sites que vous activez via le compte intégré du navigateur (Chrome Sync / Edge Sync / Firefox Sync) |
 | 🔒 **Local par conception** | Le déblocage s'exécute localement avec `activeTab` + `scripting` ; l'accès aux sites ne sert qu'aux pages que vous activez |
 | ⚡ **Léger** | Pas de frameworks, pas de dépendances d'exécution |
 | 🌍 **6 langues** | Anglais, chinois, espagnol, allemand, japonais, français |
@@ -45,7 +45,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 
 > Toutes les fonctions ci-dessus sont gratuites et illimitées — aucun quota quotidien, aucun compteur.
 
-### ⭐ Premium — règles de sites entre appareils
+### ⭐ Pro — règles de sites entre appareils
 
 | Fonctionnalité | Description |
 |---------|-------------|
@@ -110,7 +110,7 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 - Chaque domaine mémorisé est listé avec l'accès de cet appareil, un interrupteur **Complet / Léger** et un bouton **Retirer** qui demande un second clic pour confirmer
 - Le mode **Léger** restaure uniquement le clic droit et la sélection de texte. Les gestionnaires de copie et de clavier ne sont pas touchés, ce qui laisse les captchas à glissière et les éditeurs de texte enrichi fonctionner normalement
 
-**Règles de sites et synchronisation (Premium) :**
+**Règles de sites et synchronisation (Pro) :**
 - Activez un site sur un appareil — la règle est ajoutée au stockage synchronisé de votre compte navigateur
 - Sur un autre appareil connecté au même compte navigateur, le site apparaît comme règle enregistrée ; cliquez une fois sur **Activer** pour accorder l'autorisation de site de cet appareil
 - Ouvrez les **Paramètres** pour voir le nombre de sites synchronisés et utilisez **Synchroniser** pour actualiser immédiatement
@@ -125,11 +125,11 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 ## Confidentialité
 
 - ✅ **Pas d'analytics** — Aucun suivi, aucune télémétrie
-- ✅ **Fonctions gratuites : zéro requête réseau** — Tout le traitement se fait en local ; rien n'est envoyé tant que vous n'activez pas le Premium
-- ✅ **Permissions ciblées** — `activeTab` + `scripting` + `storage` exécutent le déblocage, `contextMenus` sert uniquement à ajouter des entrées LiteCopy au menu contextuel du navigateur, `alarms` uniquement à la revérification périodique de la licence Premium, plus l'accès aux sites utilisé uniquement pour l'injecter sur les pages que vous activez, et l'hôte de l'API de licence
+- ✅ **Fonctions gratuites : zéro requête réseau** — Tout le traitement se fait en local ; rien n'est envoyé tant que vous n'activez pas le Pro
+- ✅ **Permissions ciblées** — `activeTab` + `scripting` + `storage` exécutent le déblocage, `contextMenus` sert uniquement à ajouter des entrées LiteCopy au menu contextuel du navigateur, `alarms` uniquement à la revérification périodique de la licence Pro, plus l'accès aux sites utilisé uniquement pour l'injecter sur les pages que vous activez, et l'hôte de l'API de licence
 - ✅ **Liste de sites locale par défaut** — Activer LiteCopy enregistre ce domaine dans `storage.local`. Cette liste n'est jamais envoyée au développeur
-- ✅ **La synchronisation Premium utilise votre compte navigateur** — Avec une licence active, la liste est aussi reflétée dans `storage.sync`, la synchronisation de compte de votre fournisseur de navigateur. Le développeur n'y a pas accès et n'en reçoit aucune copie. La synchronisation s'arrête si vous supprimez la licence ; les règles locales continuent de fonctionner
-- ✅ **Vérification de licence uniquement** — Si vous activez une licence Premium, votre clé de licence, un identifiant d'installation aléatoire, l'identifiant de l'extension et des métadonnées de navigateur (navigateur, liste de langues, fuseau horaire, user agent) sont envoyés à `api.annmax1983.com` pour vérification — les mêmes champs que ceux décrits dans la politique de confidentialité. Aucune donnée n'est envoyée si vous n'activez pas de licence
+- ✅ **La synchronisation Pro utilise votre compte navigateur** — Avec une licence active, la liste est aussi reflétée dans `storage.sync`, la synchronisation de compte de votre fournisseur de navigateur. Le développeur n'y a pas accès et n'en reçoit aucune copie. La synchronisation s'arrête si vous supprimez la licence ; les règles locales continuent de fonctionner
+- ✅ **Vérification de licence uniquement** — Si vous activez une licence Pro, votre clé de licence, un identifiant d'installation aléatoire, l'identifiant de l'extension et des métadonnées de navigateur (navigateur, liste de langues, fuseau horaire, user agent) sont envoyés à `api.annmax1983.com` pour vérification — les mêmes champs que ceux décrits dans la politique de confidentialité. Aucune donnée n'est envoyée si vous n'activez pas de licence
 
 ---
 
