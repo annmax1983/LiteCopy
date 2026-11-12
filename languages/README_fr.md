@@ -102,12 +102,14 @@ Vous avez déjà essayé de copier du texte depuis un site web mais impossible d
 > **Note :** Certaines pages restreintes par le navigateur (`chrome://`, le Chrome Web Store, Microsoft Edge Add-ons et Firefox Add-ons (AMO), etc.) ne peuvent pas être modifiées. Le popup affiche une erreur.
 
 **Menu contextuel :**
-- Faites un clic droit sur n'importe quelle page pour **Activer sur ce site**, **Désactiver sur cette page**, **Copier le titre et l'URL de la page** ou ouvrir **Gérer les sites**
+- L'entrée **Activer sur ce site** est une coche : elle est cochée lorsque le site affiché est déjà débloqué. Cochez-la pour activer, décochez-la pour désactiver tout le site (la règle est supprimée et la page se recharge)
+- **Copier le titre et l'URL de la page** et **Gérer les sites** se trouvent dans le même menu
 - L'activation depuis le menu demande l'accès au site une seule fois ; si vous refusez, l'onglet actuel est quand même débloqué pour cette visite
 
 **Gestionnaire de sites :**
 - Ouvrez-le depuis le bouton **Gérer les sites** du popup ou depuis le menu contextuel
 - Chaque domaine mémorisé est listé avec l'accès de cet appareil, un interrupteur **Complet / Léger** et un bouton **Retirer** qui demande un second clic pour confirmer
+- **Complet / Léger** se bascule aussi directement dans le panneau dès que le site est mémorisé ; les onglets ouverts l'appliquent sans rechargement
 - Le mode **Léger** restaure uniquement le clic droit et la sélection de texte. Les gestionnaires de copie et de clavier ne sont pas touchés, ce qui laisse les captchas à glissière et les éditeurs de texte enrichi fonctionner normalement
 
 **Règles de sites et synchronisation (Pro) :**

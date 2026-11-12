@@ -39,7 +39,7 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 | 🧠 **Gemerkte Seiten** | Aktivierte Seiten werden lokal gemerkt und beim nächsten Besuch automatisch aktiviert |
 | 💬 **Toast-Benachrichtigung** | Automatisch verschwindende Benachrichtigung zeigt Aktivierungsstatus |
 | 📋 **Seiteninfo kopieren** | Popup-Buttons zum Kopieren von Seitentitel, URL oder beidem |
-| 🖱️ **Rechtsklick-Aktionen** | Eine Website aktivieren, die aktuelle Seite deaktivieren, Seitentitel + URL kopieren oder die Website-Verwaltung direkt über das Kontextmenü der Seite öffnen |
+| 🖱️ **Rechtsklick-Menü** | Das Häkchen im Menü zeigt, ob die aktuelle Website schon entsperrt ist; Titel + URL kopieren und die Website-Verwaltung liegen im selben Menü |
 | 🗂 **Website-Verwaltung** | Eine separate Seite, die jede gemerkte Domain auflistet — ob dieses Gerät Zugriff hat und ihr Voll-/Leicht-Modus; jede Zeile lässt sich mit einem Bestätigungsschritt entfernen |
 | 🪶 **Leichter Modus pro Website** | Für Websites mit Slider-CAPTCHAs oder Rich-Text-Editoren werden nur Rechtsklick und Auswahl wiederhergestellt — LiteCopy lässt Kopier- und Tastaturereignisse komplett unberührt |
 
@@ -102,12 +102,14 @@ Schon mal versucht, Text von einer Website zu kopieren, aber konntest ihn nicht 
 > **Hinweis:** Einige browser-seitig eingeschränkte Seiten (`chrome://`, der Chrome Web Store, Microsoft Edge Add-ons und Firefox-Add-ons (AMO) usw.) können nicht verändert werden. Das Popup zeigt einen Fehler an.
 
 **Rechtsklick-Menü:**
-- Rechtsklick auf einer beliebigen Seite, um **Auf dieser Website aktivieren**, **Auf dieser Seite deaktivieren**, **Seitentitel und URL kopieren** oder **Websites verwalten** zu öffnen
+- Der Eintrag **Auf dieser Website aktivieren** ist ein Häkchen: Ist die Website, die du gerade ansiehst, schon entsperrt, ist es gesetzt. Häkchen setzen aktiviert, Häkchen entfernen schaltet die ganze Website ab (die Regel wird gelöscht, die Seite lädt neu)
+- **Seitentitel und URL kopieren** und **Websites verwalten** stehen im selben Menü
 - Aktivieren über das Menü fragt einmalig nach dem Website-Zugriff; lehnst du ab, wird der aktuelle Tab für diesen Besuch trotzdem entsperrt
 
 **Website-Verwaltung:**
 - Öffne sie über den Button **Websites verwalten** im Popup oder über das Rechtsklick-Menü
 - Jede gemerkte Domain ist aufgelistet — mit der Angabe, ob dieses Gerät Zugriff hat, einem Schalter **Voll / Leicht** und einem Button **Entfernen**, der zur Bestätigung einen zweiten Klick verlangt
+- **Voll / Leicht** lässt sich auch direkt im Popup umschalten, sobald die Website gemerkt ist; offene Tabs übernehmen die Änderung ohne Neuladen
 - **Leicht** stellt nur Rechtsklick und Textauswahl wieder her. Die Kopier- und Tastatur-Handler bleiben unberührt, wodurch Slider-CAPTCHAs und Rich-Text-Editoren normal weiterfunktionieren
 
 **Website-Regeln und Synchronisierung (Pro):**

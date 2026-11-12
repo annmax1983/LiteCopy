@@ -39,7 +39,7 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 | 🧠 **Remembered Sites** | Sites you enable are remembered locally and auto-enabled on your next visit |
 | 💬 **Toast Notification** | Auto-dismissing notification shows activation status |
 | 📋 **Copy Page Info** | Popup buttons to copy page title, URL, or both |
-| 🖱️ **Right-Click Actions** | Enable a site, disable it on the current page, copy the page title and URL, or open Site Manager straight from the page context menu |
+| 🖱️ **Right-Click Actions** | One checkbox that shows whether this site is already unlocked — tick it to enable, untick to turn the site off — plus copy the page title and URL or open Site Manager |
 | 🗂 **Site Manager** | A separate page listing every remembered domain, whether this device has access, and its Full/Light mode — each row removable with a confirm step |
 | 🪶 **Light Mode per Site** | For sites with slider CAPTCHAs or rich-text editors, restore only right-click and selection — LiteCopy leaves copy and keyboard events completely alone |
 
@@ -102,12 +102,14 @@ Ever tried to copy text from a website but couldn't select it, right-click was b
 > **Note:** Some browser-restricted pages cannot be modified — `chrome://` pages and the Chrome Web Store on Chrome / Edge, or `about:` pages and addons.mozilla.org on Firefox. The popup shows an error.
 
 **Right-click menu:**
-- Right-click any page to **Enable on this site**, **Disable on this page**, **Copy page title and URL**, or open **Manage sites**
+- The **LiteCopy: Enable on this site** entry is a checkbox: it is ticked when the site you are looking at is already unlocked. Tick it to enable, untick it to turn the site off (the rule is dropped and the page reloads)
+- **Copy page title and URL** and **Manage sites** sit in the same menu
 - Enabling from the menu asks for site access once; if you decline, the current tab still unlocks for this visit
 
 **Site Manager:**
 - Open it from the popup's **Manage sites** button or from the right-click menu
 - Every remembered domain is listed with whether this device has access, a **Full / Light** switch, and a **Remove** button that needs a second confirming click
+- **Full / Light** can also be switched straight from the popup once the site is known; the change applies to open tabs without a reload
 - **Light** restores only right-click and text selection. Copy and keyboard handlers are left untouched, which keeps slider CAPTCHAs and rich-text editors working normally
 
 **Site rules and sync (Pro):**

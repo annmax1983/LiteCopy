@@ -102,12 +102,14 @@ Una extensión ligera para el navegador que restaura la selección de texto nati
 > **Nota:** Algunas páginas restringidas por el navegador (`chrome://`, Chrome Web Store, Microsoft Edge Add-ons y Firefox Add-ons (AMO), etc.) no pueden modificarse. El popup muestra un error.
 
 **Menú de clic derecho:**
-- Haz clic derecho en cualquier página para **Activar en este sitio**, **Desactivar en esta página**, **Copiar título y URL de la página** o abrir **Gestionar sitios**
+- La entrada **Activar en este sitio** es una marca: aparece marcada cuando el sitio que estás viendo ya está desbloqueado. Márcala para activar, quítala para desactivar todo el sitio (la regla se elimina y la página se recarga)
+- **Copiar título y URL de la página** y **Gestionar sitios** están en el mismo menú
 - Activar desde el menú pide el permiso de sitio una sola vez; si lo rechazas, la pestaña actual se desbloquea igualmente durante esta visita
 
 **Gestor de sitios:**
 - Ábrelo desde el botón **Gestionar sitios** del popup o desde el menú de clic derecho
 - Cada dominio recordado aparece en la lista con la indicación de si este dispositivo tiene acceso, un interruptor **Completo / Ligero** y un botón **Quitar** que pide un segundo clic para confirmar
+- **Completo / Ligero** también se puede cambiar desde el propio panel en cuanto el sitio está recordado; las pestañas abiertas lo aplican sin recargar
 - El modo **Ligero** solo restaura el clic derecho y la selección de texto. Los manejadores de copia y de teclado quedan intactos, así que los captchas deslizantes y los editores de texto enriquecido siguen funcionando con normalidad
 
 **Reglas de sitios y sincronización (Pro):**
